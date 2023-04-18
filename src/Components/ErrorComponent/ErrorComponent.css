@@ -1,0 +1,50 @@
+.Error section#troo-da-subpagebanner-section ul.breadcrumb {
+  margin-bottom: 0;
+}
+.Error section#troo-da-subpagebanner-section .breadcrumb-ss {
+  bottom: 10%;
+}
+section#troo-da-error-section {
+  background-image: url(../../Images/error-bg.png);
+  background-repeat: no-repeat;
+}
+.error-text span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #232323;
+  display: inline-block;
+  margin-bottom: 23px;
+}
+.error-titlr {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #0fa00f;
+  margin-bottom: 21px;
+}
+.error-titlr strong {
+  color: #fff;
+  -webkit-text-stroke: 1px #0fa00f;
+}
+.error-cta {
+  display: flex;
+}
+.error-text .read-cta.green-btn img {
+  transform: rotate(182deg);
+  margin-left: 0;
+  margin-right: 10px;
+}
+.error-text .read-cta.green-btn {
+  margin-right: 20px;
+}
+section#troo-da-error-section .row {
+  align-items: center;
+}
+.error-text {
+  padding: 0 151px 5px 88px;
+}

@@ -1,0 +1,223 @@
+.servic-list-img img {
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgb(149 157 165 / 20%);
+  border-radius: 5px;
+  width: 100%;
+}
+.servic-list-text {
+  padding-left: 50px;
+}
+section#troo-da-service-list-section .sub-txt {
+  text-align: center;
+}
+.servic-list-text a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0fa00f;
+  text-decoration: none;
+}
+.servic-list-text a:hover {
+  color: #0fa00f;
+}
+.servic-list-text a:hover img {
+  transform: translateX(50%);
+}
+.servic-list-text a img {
+  transition: 0.5s;
+  margin-left: 10px;
+}
+section#troo-da-service-list-section .row {
+  align-items: center;
+  margin-bottom: 58px;
+}
+.servic-list-text h3 {
+  position: relative;
+  padding-bottom: 28px;
+}
+.servic-list-text h3:after {
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  left: 0;
+  bottom: 4px;
+  background: #0fa00f;
+  content: "";
+}
+.servic-list-text.left-txt {
+  text-align: right;
+  padding-left: 0;
+  padding-right: 50px;
+}
+.servic-list-text.left-txt h3:after {
+  left: inherit;
+  right: 0;
+}
+.servic-overview ul li span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #0fa00f;
+  border: 1px solid #0fa00f;
+  border-radius: 45px;
+  margin-right: 6px;
+  padding: 4px 4px;
+}
+.servic-overview ul li {
+  list-style: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #232323;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.servic-overview ul {
+  padding: 0;
+}
+.service-detils img {
+  width: 100%;
+}
+.servic-overview {
+  margin-top: 30px !important;
+}
+.planing-section h3 {
+  margin-bottom: 25px;
+}
+.planing-section p {
+  margin-bottom: 30px;
+}
+.service-detils h2 {
+  margin-bottom: 30px !important;
+}
+.service-detils p {
+  margin-bottom: 30px;
+}
+.arch-col h3 {
+  margin-top: 30px;
+}
+.sidebar ul li a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232323;
+  text-decoration: none;
+  padding: 14px 0 14px 23px;
+  display: block;
+  border-bottom: 1px solid rgb(35 35 35 / 10%);
+}
+.sidebar ul li a:hover {
+  background: #0fa00f;
+  box-shadow: 0px 8px 24px rgb(149 157 165 / 20%);
+  color: #fff;
+}
+.sidebar ul li {
+  list-style: none;
+}
+.sidebar ul {
+  padding: 11px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  filter: drop-shadow(0px 8px 24px rgba(149, 157, 165, 0.2));
+  border-radius: 5px;
+}
+.sidebar ul li:last-child a {
+  border-bottom: 0;
+}
+.sidebar h3 {
+  margin-bottom: 20px;
+}
+.servic-overview ul li p {
+  margin-bottom: 0;
+}
+.emergency-col {
+  background-image: url(../../Images/need-img.png);
+  padding: 43px 54px 47px 21px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.emergency-col span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  position: relative;
+  display: block;
+  padding-bottom: 30px;
+}
+.emergency-col span:after {
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  left: 0;
+  bottom: 13px;
+  background: #ffffff;
+  content: "";
+}
+.emergency-col h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.emergency-col p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+.emergency-col .call-us {
+  display: flex;
+  margin-left: 0;
+}
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5%;
+}
+section#troo-da-service-deails-section {
+  padding-bottom: 100px;
+}
+ul.pro-li strong {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232323;
+  display: block;
+  margin-bottom: 16px;
+}
+ul.pro-li span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #232323;
+  display: block;
+  margin-bottom: 33px;
+}
+ul.pro-li {
+  padding-left: 31px;
+  padding-top: 38px;
+}
+video {
+  width: 100%;
+}

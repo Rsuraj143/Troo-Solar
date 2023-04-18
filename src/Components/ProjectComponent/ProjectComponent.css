@@ -1,0 +1,229 @@
+#troo-da-projects-section {
+  background-image: url(../../Images/projects-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-position: 100% 33%;
+}
+#troo-da-projects-section .sub-txt {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.project-col {
+  position: relative;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.project-col img {
+  width: 100%;
+}
+.project-text img {
+  width: auto;
+}
+.project-text {
+  padding: 20px;
+  border-radius: 10px;
+  height: 50px;
+  max-width: 365px;
+  width: 100%;
+  margin: 29px;
+  float: left;
+  position: relative;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  text-align: center;
+  overflow: hidden;
+  transition: 1.5s;
+  position: absolute;
+  bottom: -1px;
+  opacity: 0;
+  right: 0;
+}
+.project-col:hover .project-text {
+  max-width: 365px;
+  width: 100%;
+  height: 375px;
+  background: #ffffff;
+  border-bottom: 1px solid #0fa00f;
+  box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.1);
+  border-radius: 5px;
+  opacity: 1;
+}
+.text-pr p {
+  margin-bottom: 11px;
+}
+.text-pr {
+  text-align: left;
+  padding-top: 81%;
+}
+.text-pr span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0fa00f;
+}
+.project-text img {
+  position: absolute;
+  right: 25px;
+}
+.view-pro h2 {
+  color: #0fa00f;
+}
+section#troo-da-projects-section .row {
+  align-items: center;
+}
+.view-pro {
+  padding-top: 64px;
+}
+#troo-da-projects-section .row {
+  align-items: center;
+}
+
+/* project List */
+#troo-da-about-latest-projects-section {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+#troo-da-about-latest-projects-section .sub-txt {
+  text-align: center;
+  margin-bottom: 50px;
+}
+section#troo-da-about-latest-projects-section .row {
+  align-items: center;
+  margin-top: 54px;
+}
+.latest-txt span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232323;
+  position: relative;
+  padding-left: 0px;
+  padding-bottom: 37px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.latest-txt span:after {
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  right: 120%;
+  background: #232323;
+  content: "";
+  top: 9px;
+  transition: 0.5s;
+}
+.latest-img img {
+  width: 100%;
+}
+.latest-txt h3 {
+  margin-bottom: 18px;
+}
+.latest-txt a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232323;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.latest-txt:hover a {
+  color: #0fa00f;
+}
+.latest-txt {
+  cursor: pointer;
+  position: relative;
+}
+.latest-txt:hover span {
+  color: #0fa00f;
+}
+.latest-txt:hover span:after {
+  background: #0fa00f;
+}
+img.hover-im {
+  position: absolute;
+  left: 91px;
+  bottom: 2px;
+  display: none;
+  transition: 0.5s;
+}
+.latest-txt:hover img.hover-im {
+  display: block;
+  transition: 0.5s;
+}
+.latest-txt:hover img.normal-im {
+  display: none;
+  transition: 0.5s;
+}
+.latest-txt.smater-text span::after {
+  left: inherit;
+  right: -118px;
+}
+.latest-txt.smater-text span {
+  padding-left: 0;
+  text-align: right;
+  display: block;
+  padding-right: 0;
+}
+.latest-txt.smater-text {
+  text-align: right;
+}
+.latest-txt.smater-text:hover img.hover-im {
+  display: block;
+  transition: 0.5s;
+  left: inherit;
+  right: -2px;
+}
+.latest-txt.smater-text a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232323;
+  text-decoration: none;
+  transition: 0.5s;
+  display: inline-block;
+  position: relative;
+  padding-left: 0px;
+  padding-right: 37px;
+}
+.latest-txt.smater-text:hover a {
+  color: #0fa00f;
+}
+.latest-txt.smater-text img.hover-im {
+  position: absolute;
+  left: inherit;
+  bottom: inherit;
+  display: none;
+  transition: 0.5s;
+  right: 0px;
+  top: 5px;
+}
+.latest-txt.smater-text img.normal-im {
+  position: absolute;
+  right: 0px;
+  top: 5px;
+}
+.latest-img img {
+  width: 100%;
+  max-width: 634px;
+  display: block;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+  border-radius: 5px;
+}
+.peoject-com h2 {
+  color: #0fa00f;
+}
+.all-project .read-cta.green-btn {
+  text-align: right;
+}

@@ -1,0 +1,78 @@
+section#troo-da-contact-section .contact-section h2:after {
+  position: absolute;
+  width: 1px;
+  height: 100px;
+  left: 0;
+  top: 158%;
+  background: #0fa00f;
+  content: "";
+  right: 0;
+  margin: 0 auto;
+}
+
+section#troo-da-contact-section .contact-section h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #232323;
+  position: relative;
+  margin-bottom: 210px;
+}
+section#troo-da-contact-section .contact-section strong {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52.2131px;
+  line-height: 24px;
+  color: #0fa00f;
+  display: block;
+  text-align: center;
+  margin-bottom: 60px;
+}
+section#troo-da-contact-section .contact-section span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #232323;
+  display: block;
+  margin-bottom: 96px;
+}
+section#troo-da-contact-section .contcat-form-section {
+  background: rgb(15 160 15 / 5%);
+  border-radius: 5px;
+  border-bottom: 0;
+}
+section#troo-da-contact-section .contcat-form-section h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #232323;
+  margin-bottom: 26px;
+}
+section#troo-da-contact-section .contcat-form-section h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 24px;
+  color: #232323;
+  margin-bottom: 56px;
+}
+.iframe-col iframe {
+  height: 992px;
+  max-width: 524px;
+  margin-top: 52px;
+  width: 100%;
+}
+section#troo-da-contact-section {
+  padding-bottom: 100px;
+}
+

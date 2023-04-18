@@ -1,0 +1,124 @@
+#troo-da-form-section .sub-txt span {
+  background: #fff;
+  color: #0fa00f;
+}
+#troo-da-form-section .sub-txt {
+  position: relative;
+  text-align: center;
+}
+#troo-da-form-section .sub-txt span:before {
+  background-color: #0fa00f;
+}
+#troo-da-form-section .sub-txt h2 {
+  color: #fff;
+}
+#troo-da-form-section .bg-reviw span {
+  font-size: 180px;
+}
+.contcat-form-section {
+  position: relative;
+  background: #ffffff;
+  border-bottom: 1px solid #0fa00f;
+  box-shadow: 0px 8px 24px rgb(149 157 165 / 10%);
+  border-radius: 5px;
+  padding: 50px;
+  margin-top: 50px;
+}
+button.read-cta.green-btn {
+  border: none;
+  background: #0fa00f;
+  border-radius: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+  padding: 16px 22px;
+  text-decoration: none;
+}
+button.read-cta.green-btn:hover img {
+  transform: translateX(50%) !important;
+}
+button.read-cta.green-btn img {
+  transition: 0.5s;
+  margin-left: 10px !important;
+}
+.contcat-form-section label {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232323;
+  display: block;
+  margin-bottom: 16px;
+}
+.contcat-form-section input {
+  background: #ffffff;
+  padding-left: 31px;
+  border-radius: 5px;
+  height: 60px;
+}
+.contcat-form-section input::-webkit-input-placeholder {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #232323;
+  opacity: 0.5;
+}
+.contcat-form-section input:-ms-input-placeholder {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #232323;
+}
+.contcat-form-section input::placeholder {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #232323;
+  opacity: 0.5;
+}
+.contcat-form-section textarea {
+  background: #ffffff;
+  border: 1px solid hwb(0deg 14% 86% / 22%);
+  border-radius: 5px;
+  height: 169px;
+  width: 100%;
+  color: rgb(35 35 35 / 49%);
+  padding-left: 31px;
+  padding-top: 20px;
+  outline: none;
+}
+.contcat-form-section select {
+  background-color: #ffffff;
+  opacity: 1;
+  border: 1px solid rgb(35 35 35 / 18%);
+  border-radius: 5px;
+  height: 60px;
+  background-image: url(../../Images/slect-arrow.png);
+  color: rgb(35 35 35 / 49%);
+  padding-left: 31px;
+}
+.form-select:focus {
+  border: 1px solid rgb(35 35 35 / 18%) !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid rgb(35 35 35 / 18%) !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+.field {
+  margin-bottom: 30px;
+}

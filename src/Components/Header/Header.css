@@ -1,0 +1,243 @@
+.header {
+  position: relative;
+  z-index: 9;
+}
+section#troo-da-header-section {
+  padding: 0px 69px;
+  border-bottom: 1px solid rgb(255 255 255 / 20%);
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background: transparent !important;
+}
+a.navbar-brand {
+  margin: 0;
+}
+ul.navbar-nav {
+  margin-left: 49px;
+  margin-right: 49px;
+}
+li.nav-item {
+  position: relative;
+}
+li.nav-item:before {
+  background-color: #fff;
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  left: 0;
+  right: 0;
+  margin: 6px auto;
+  opacity: 0;
+}
+
+li.nav-item.active:after {
+  background-color: #fff;
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  left: 0;
+  right: 0;
+  margin: 6px auto;
+  opacity: 1;
+}
+.header section#troo-da-header-section a.nav-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+  opacity: 0.5;
+  padding: 28px 24px;
+}
+li.nav-item.active a.nav-link {
+  opacity: 1 !important;
+}
+
+.nav-link.test.dropdown {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+  padding: 28px 24px;
+}
+.nav-link.test button.btn.btn-primary {
+  background: transparent;
+  border-color: transparent;
+  opacity: 0.5;
+}
+.dropdown-menu.show {
+  top: 67px !important;
+  background: #0fa00f;
+}
+
+a.dropdown-item {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.get-col a {
+  transition: 0.5s;
+  display: inline-block;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+  padding: 15px 21px;
+  text-decoration: none;
+}
+.get-col a span {
+  margin-right: 10px;
+}
+.call-us {
+  display: flex;
+  margin-left: 39px;
+}
+.call-text {
+  margin-left: 19px;
+}
+.call-text strong {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.call-text a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+  text-decoration: none;
+}
+button.hum-btn {
+  position: absolute;
+  right: 58px;
+  top: 45px;
+  background: transparent;
+  border: none;
+}
+
+/* canvas */
+.offcanvas-header button.btn-close {
+  position: absolute;
+  right: 39px;
+  top: 23px;
+  color: #000;
+  background-color: #0fa00f;
+  opacity: 1;
+}
+.menu-col h4 {
+  text-transform: uppercase;
+  margin-top: 29px;
+  padding-bottom: 11px;
+  border: 1px solid #0fa00f;
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding: 8px 0 8px 20px;
+}
+.offcanvas-body ul {
+  border: 1px solid #0fa00f;
+  padding: 27px 25px 0 10px;
+}
+.menu-col ul li {
+  list-style: none;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #0fa00f;
+  margin-bottom: 19px;
+}
+.offcanvas-body ul li a {
+  color: #000;
+  font-size: 19px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.offcanvas-body ul li a svg {
+  background: #0fa00f;
+  color: #fff;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 50px;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+}
+.offcanvas-body .read-cta {
+  margin-top: 30px !important;
+}
+.socail-icon h4 {
+  text-transform: uppercase;
+  margin-top: 45px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #0fa00f;
+}
+.offcanvas-body ul {
+  border: 1px solid #0fa00f;
+  padding: 27px 25px 0 10px;
+}
+
+.socail-icon ul {
+  border: 0px solid transparent !important;
+}
+.socail-icon ul li {
+  display: inline-block;
+}
+.offcanvas-body .socail-icon ul li a {
+  color: #000;
+  font-size: 19px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.socail-icon ul li a svg {
+  background: transparent;
+  color: #000;
+}
+
+@media (max-width: 1800px) {
+  a.navbar-brand img {
+    max-width: 200px;
+  }
+  section#troo-da-header-section {
+    padding: 0 20px;
+  }
+  ul.navbar-nav {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  header section#troo-da-header-section a.nav-link {
+    padding: 4px 15px;
+  }
+  .get-col a {
+    padding: 5px 17px;
+  }
+  .call-us {
+    display: flex;
+    margin-left: 8px;
+  }
+  .call-text a {
+    font-size: 15px;
+  }
+  button.hum-btn {
+    right: 4px;
+    top: 23px;
+  }
+  .call-text {
+    margin-left: 9px;
+  }
+}

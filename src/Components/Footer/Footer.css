@@ -1,0 +1,165 @@
+section#troo-da-foooter-section {
+    background-color: #232323;
+    background-image: url(../../Images/footerbg.png);
+    background-repeat: no-repeat;
+    padding-top: 99px;
+}
+.logo-ss p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.6345px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 21px;
+    margin-bottom: 33px;
+}
+.logo-ss ul {
+    padding: 0;
+}
+.logo-ss ul li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo-ss ul li a svg {
+    color: #fff;
+}
+.start-col h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    position: relative;
+}
+.start-col h4:before {
+    background: #0FA00F;
+    opacity: 0.1;
+    border-radius: 100px;
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: -27px;
+    top: -13px;
+}
+.start-col .cll-ss {
+    background: rgb(255 255 255 / 5%);
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 5%);
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 50px;
+}
+.start-col .col-detals {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin: 4px 2px;
+    border: none;
+    padding: 20px 27px 20px 27px;
+    position: relative;
+}
+.call-deails {
+    display: flex;
+}
+.start-col .icon-cal svg {
+    color: #0FA00F;
+}
+.cal-te {
+    margin-left: 11px;
+}
+.cal-te a {
+    text-decoration: none;
+}
+.cal-te span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+.cal-te strong {
+    color: #fff;
+}
+.start-col .col-detals:after {
+    position: absolute;
+    width: 1px;
+    height: 50px;
+    left: -17px;
+    background: #0FA00F;
+    content: "";
+    right: 0;
+    margin: 0 auto;
+    bottom: 15px;
+}
+.foter-link {
+    float: right;
+}
+.fot-tile {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0FA00F;
+    position: relative;
+    padding-left: 28px;
+}
+.fot-tile:before {
+    background: #0FA00F;
+    content: "";
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    top: 9px;
+    left: 0;
+}
+.fflinks ul {
+    padding-top: 39px;
+}
+.fflinks ul li a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 0;
+}
+.bottm-footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(255 255 255 / 5%);
+    padding-top: 22px;
+    margin-top: 75px;
+}
+.copy-ss span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.204545px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+.bottom-link ul li {
+    display: inline-block;
+    padding: 0 0 0 56px;
+}
+.bottom-link ul li a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.204545px;
+    color: #FFFFFF;
+    text-decoration: none;
+}

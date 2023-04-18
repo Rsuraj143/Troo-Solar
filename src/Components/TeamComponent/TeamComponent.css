@@ -1,0 +1,107 @@
+section#troo-da-team-section .sub-txt {
+  text-align: center;
+  margin-bottom: 60px;
+}
+section#troo-da-team-section {
+  background-image: url(../../Images/team-bg.png);
+  padding-top: 100px;
+  background-repeat: no-repeat;
+  background-color: #f3faf3;
+  padding-bottom: 244px;
+}
+.team-col {
+  position: relative;
+  cursor: pointer;
+}
+.team-deatils ul li {
+  display: inline-block;
+}
+.team-deatils ul {
+  padding: 0;
+}
+.team-deatils ul li a svg {
+  color: #232323;
+}
+.team-deatils ul li a {
+  padding: 3px 9px;
+}
+.team-col .team-deatils ul li a:hover {
+  background: #0fa00f;
+  border-radius: 5px;
+  color: #fff;
+}
+.team-deatils ul li a:hover svg {
+  color: #fff;
+}
+.team-deatils {
+  height: 98px !important;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  position: absolute;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  bottom: 38px;
+  left: 0;
+  margin-top: 100px;
+  right: 0;
+  opacity: 0;
+  z-index: 99;
+  border-radius: 5px;
+}
+.team-col:hover .team-deatils {
+  margin-top: 280px;
+  height: 111px;
+  padding-top: 10px;
+  opacity: 1;
+}
+.team-txt h3 {
+  margin-bottom: 10px;
+}
+.team-img img {
+  width: 100%;
+}
+.team-txt {
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgb(149 157 165 / 10%);
+  border-radius: 5px;
+  z-index: 9;
+  position: relative;
+  margin: 0 30px;
+  padding: 24px 0;
+  top: -91px;
+}
+.team-col:hover .team-txt {
+  border-bottom: 1px solid #0fa00f;
+  box-shadow: 0px 8px 24px rgb(149 157 165 / 10%);
+  border-radius: 5px;
+}
+#troo-da-team-section .read-cta {
+  text-align: center;
+}
+
+/* team Component2 */
+#troo-da-meet-team-section .sub-txt {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#troo-da-meet-team-section .team-img img {
+  width: 100%;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#troo-da-meet-team-section .team-col:hover .team-img img {
+  filter: gray;
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  filter: grayscale(0);
+}

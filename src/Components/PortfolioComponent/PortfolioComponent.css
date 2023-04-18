@@ -1,0 +1,68 @@
+.cos-icons {
+  text-align: center;
+  border-left: 1px solid rgb(15 160 15 / 14%);
+}
+.chose-contetn .col-md-4:first-child .cos-icons {
+  border: 0;
+}
+.chose-img img {
+  width: 100%;
+}
+.chose-contetn {
+  padding-left: 88px;
+}
+.chose-img {
+  position: relative;
+}
+.chos-icon {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #0fa00f;
+  position: relative;
+}
+.chos-icon:after {
+  background: #0fa00f;
+  opacity: 0.1;
+  width: 63px;
+  height: 63px;
+  content: "";
+  position: absolute;
+  left: -17px;
+  border-radius: 50%;
+  top: -8px;
+}
+.chicon-tt {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #232323;
+  margin-left: 23px;
+}
+.chose-txt {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -10px;
+  right: 13px;
+  background: #f3faf3;
+  border-radius: 5px;
+  padding: 22px 21px 28px 42px;
+}
+.cls-ss {
+  background: #0fa00f;
+  position: absolute;
+  top: 77px;
+  right: -51px;
+}
+section#troo-da-choose-section {
+  background-image: url(../../Images/chose-bg.png);
+  background-color: rgb(15 160 15 / 5%);
+  padding-top: 100px;
+  padding-bottom: 255px;
+  background-repeat: no-repeat;
+}

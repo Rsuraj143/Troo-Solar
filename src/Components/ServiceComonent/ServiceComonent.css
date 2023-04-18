@@ -1,0 +1,96 @@
+#troo-da-offer-section {
+  background-image: url(../../Images/offer-bg.png);
+  background-color: #f3faf3;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#troo-da-offer-section .sub-txt {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.services-col {
+  background-color: #ffffff;
+  box-shadow: 0px 8px 24px rgb(149 157 165 / 10%);
+  border-radius: 5px;
+  padding-left: 45px;
+  padding-right: 48px;
+  padding-top: 46px;
+  padding-bottom: 39px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-top: 1px solid #fff;
+  position: relative;
+  top: 0;
+}
+.servi-img {
+  margin-bottom: 37px;
+}
+.serv-text h3 {
+  position: relative;
+  margin-bottom: 35px;
+  transition: 0.5s;
+}
+.serv-text h3:before {
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  left: 0;
+  bottom: -24px;
+  background: #232323;
+  border-radius: 100px;
+  content: "";
+}
+.learn-btn a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #232323;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s;
+}
+.learn-btn img {
+  margin-left: 14px;
+}
+.services-col.wind-col:hover {
+  background-image: url(../../Images/services-hover-2.png);
+}
+
+.services-col:hover {
+  background-image: url(../../Images/services-hover-1.png);
+  background-repeat: no-repeat;
+  background-position: 82% 26%;
+  transition: 0.5s;
+  border-top: 1px solid #0fa00f;
+  top: -31px;
+}
+section#troo-da-offer-section .read-cta {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* service component 2 */
+
+.services-col.fossil-col:hover {
+  background-image: url(../../Images/services-hover-4.png);
+}
+.services-col.battery-col:hover {
+  background-image: url(../../Images/services-hover-5.png);
+}
+.services-col.charge-col:hover {
+  background-image: url(../../Images/services-hover-6.png);
+}
+.services section#troo-da-offer-section {
+  margin-top: -138px;
+}
+.services #troo-da-offer-section .row {
+  align-items: center;
+}
+.services .services-col {
+  margin-bottom: 30px;
+}

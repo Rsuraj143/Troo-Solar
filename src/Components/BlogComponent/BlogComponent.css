@@ -1,0 +1,228 @@
+section#troo-da-news-section {
+  background-image: url(../../Images/newsbg.png);
+  background-color: rgb(15 160 15 / 5%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+#troo-da-news-section .sub-txt {
+  text-align: center;
+}
+.news-cont {
+  position: relative;
+  margin-top: 40px;
+}
+.news-text p {
+  margin-bottom: 0;
+}
+.news-text {
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgb(149 157 165 / 10%);
+  border-radius: 5px;
+  position: absolute;
+  bottom: -54px;
+  right: 0px;
+  padding: 29px 38px 24px 32px;
+  border-bottom: 1px solid #fff;
+  transition: 0.5s;
+}
+.news-col {
+  cursor: pointer;
+  margin-top: 95px !important;
+}
+.news-col:hover .news-text {
+  background: #ffffff;
+  border-bottom: 1px solid #0fa00f;
+  box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.1);
+  border-radius: 5px;
+}
+.news-text h4 {
+  transition: 0.5s;
+}
+.news-col:hover h4 {
+  color: #0fa00f;
+}
+section#troo-da-news-section .read-cta.green-btn {
+  text-align: center;
+  margin-top: 112px;
+}
+
+/* Blog List component*/
+.service-detils.blog-ss span img {
+  width: auto;
+}
+.service-detils.blog-ss a {
+  text-decoration: none;
+}
+.service-detils.blog-ss strong {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232323;
+  display: block;
+  margin-bottom: 20px;
+}
+.service-detils.blog-ss h2 {
+  color: #232323;
+  margin-top: 37px;
+  margin-bottom: 14px !important;
+  transition: 0.5s;
+}
+.service-detils.blog-ss:hover h2 {
+  color: #0fa00f;
+}
+.service-detils.blog-ss span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #232323;
+}
+.service-detils.blog-ss p {
+  margin-bottom: 14px;
+}
+.blog-ss {
+  margin-bottom: 50px;
+}
+.search-container {
+  background: rgb(35 35 35 / 5%);
+  border-radius: 5px;
+  padding-top: 43px;
+  padding-left: 32px;
+  padding-bottom: 43px;
+  margin-bottom: 26px;
+}
+.search-container input[type="text"] {
+  background: #ffffff;
+  opacity: 0.3;
+  border: 1px solid #0fa00f;
+  border-radius: 5px;
+  height: 50px;
+  max-width: 346px;
+  width: 100%;
+}
+.search-container strong {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232323;
+  display: block;
+  margin-bottom: 16px;
+}
+.search-container button {
+  position: absolute;
+  right: 39px;
+  border-radius: 5px;
+  background: #0fa00f;
+  border-radius: 0px 4px 4px 0px;
+  border: 1px solid #0fa00f;
+  color: #fff;
+  padding: 12px 17px;
+}
+.cat-list strong {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232323;
+}
+.cat-list span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232323;
+}
+.cat-list ul li {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 22px;
+}
+.cat-list ul {
+  padding-left: 31px;
+  padding-top: 33px;
+  padding-right: 36px;
+}
+.tag-col ul li {
+  display: inline-block;
+}
+.tag-col ul li a {
+  border: none;
+}
+.tag-col ul li a {
+  border: none;
+  padding: 7px 6px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232323;
+  margin: 8px;
+}
+.tag-col ul li a:hover {
+  background: rgb(15 160 15 / 5%);
+  color: #0fa00f;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.search-container form {
+  position: relative;
+}
+
+/* Blog Details */
+.resent-tile {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 26px;
+  margin-top: 95px !important;
+  color: #232323;
+}
+.blogs-detail .news-col {
+  margin-top: 0 !important;
+}
+.service-detils.blog-ss.blog-detal:hover h2 {
+  color: #232323;
+}
+section#troo-da-service-deails-section
+  .service-detils.blog-ss.blog-detal
+  .servic-overview
+  ul
+  li
+  span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #0fa00f;
+}
+section#troo-da-service-deails-section
+  .service-detils.blog-ss.blog-detal
+  .servic-overview
+  ul
+  li
+  p {
+  margin-bottom: 0;
+}
+section#troo-da-service-deails-section
+  .service-detils.blog-ss.blog-detal
+  .servic-overview {
+  margin-top: 0 !important;
+}
+.blogs-detail .news-col {
+  margin-top: 0 !important;
+  margin-bottom: 45px;
+}
+

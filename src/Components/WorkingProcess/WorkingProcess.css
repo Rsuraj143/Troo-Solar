@@ -1,0 +1,146 @@
+section#troo-da-stages-section {
+  background-image: url(../../Images/step-bg.png);
+  background-color: #0fa00f;
+  padding-top: 100px;
+  padding-bottom: 285px;
+}
+#troo-da-stages-section .sub-txt {
+  text-align: center;
+  margin-bottom: 70px;
+}
+#troo-da-stages-section .sub-txt span {
+  background-color: #fff;
+  color: #0fa00f;
+}
+#troo-da-stages-section .sub-txt span:before {
+  background-color: #0fa00f;
+}
+#troo-da-stages-section .sub-txt h2 {
+  color: #fff;
+}
+.installation-stages {
+  position: relative;
+  cursor: pointer;
+}
+.stag-one {
+  margin-bottom: 67px;
+  position: relative;
+}
+.ins-text {
+  background: #ffffff;
+  border-radius: 5px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #232323;
+  padding: 25px 12px;
+}
+.ins-num {
+  transition: 0.5s;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #0fa00f;
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  padding: 13px 0 0 0;
+  border-radius: 100px;
+  border: 3px solid #0fa00f;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto 0px auto;
+  bottom: -29px;
+}
+.installation-stages:hover .ins-num {
+  background: #0fa00f;
+  color: #fff;
+  border-color: #fff;
+  box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.1);
+}
+.ans-bottom {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  width: 0;
+  height: 0;
+}
+
+.ans-border {
+  border-style: solid;
+  border-width: 10px;
+  border-color: #fff;
+  margin: 0 auto;
+}
+.ins-tile {
+  background: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 13px 0;
+  max-width: 234px;
+  position: relative;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #232323;
+  margin: 0 auto;
+}
+.ins-bt:after {
+  border-top: 2px dashed #ffffff;
+  content: "";
+  width: 47px;
+  height: 47px;
+  position: absolute;
+  transform: rotate(91deg);
+  top: -51%;
+  left: -46px;
+  right: 0;
+  margin: 0 auto;
+}
+.ins-tile:after {
+  border-top: 2px dashed #ffffff;
+  content: "";
+  width: 130px;
+  height: 47px;
+  position: absolute;
+  transform: rotate(0deg);
+  top: 50%;
+  left: 100%;
+  margin: 0 auto;
+}
+.installation-stages.btn-bttom {
+  top: 64%;
+}
+.ins-bt {
+  position: relative;
+}
+.installation-stages.btn-bttom .ins-num {
+  bottom: -95px;
+  z-index: 9;
+}
+.installation-stages.btn-bttom .ans-border.ans-bottom {
+  transform: rotate(181deg);
+}
+.installation-stages.btn-bttom .ins-bt:after {
+  top: inherit;
+  bottom: -55%;
+}
+.installation-stages.btn-bttom .stag-one {
+  margin-top: 70px;
+}
+#troo-da-stages-section
+  .col-md-3:last-child
+  .installation-stages.btn-bttom
+  .ins-tile:after {
+  display: none;
+}

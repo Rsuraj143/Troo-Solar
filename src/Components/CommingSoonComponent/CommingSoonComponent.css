@@ -1,0 +1,101 @@
+.coming-col {
+  display: flex;
+  align-items: center;
+}
+.coming-text span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 26px;
+  display: inline-block;
+}
+.coming-title span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 61px;
+  color: #0fa00f;
+}
+.coming-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 61px;
+  color: #232323;
+  margin-bottom: 35px;
+}
+.coming-text .search-container strong {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.search-container {
+  background: transparent;
+  padding: 43px 0 26px 0;
+}
+
+.coming-text p {
+  margin-bottom: 0;
+}
+.coming-text .search-container input {
+  max-width: inherit !important;
+  width: 100% !important;
+  padding-left: 21px;
+}
+
+.search-container button {
+    position: absolute;
+    right: 39px;
+    border-radius: 5px;
+    background: #0FA00F;
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid #0FA00F;
+    color: #fff;
+    padding: 12px 17px;
+}
+.search-container input[type="text"] {
+    background: #FFFFFF;
+    opacity: 0.3;
+    border: 1px solid #0FA00F;
+    border-radius: 5px;
+    height: 50px;
+    max-width: 346px;
+    width: 100%;
+}
+.search-container form {
+    position: relative;
+}
+.coming-text {
+  padding: 0px 170px 0 287px;
+}
+.coming-text .search-container button {
+  right: -1px;
+}
+.coming-text .call-text strong {
+  color: #232323;
+}
+.coming-text .call-text a {
+  color: #232323;
+}
+.coming-text .call-us {
+  align-items: center;
+  margin-left: 0;
+}
+.search-container strong {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #232323;
+    display: block;
+    margin-bottom: 16px;
+}

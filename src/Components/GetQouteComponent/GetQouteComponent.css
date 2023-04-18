@@ -1,0 +1,110 @@
+.work-together {
+  background: #232323;
+  border-radius: 5px;
+  padding-left: 57px;
+  padding-top: 50px;
+  padding-right: 67px;
+  padding-bottom: 52px;
+}
+.work-together span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 12px;
+}
+.work-together h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+  margin-bottom: 39px;
+}
+.get-qoute .contcat-form-section .field small {
+  font-size: 10px;
+}
+.get-mail {
+  margin-bottom: 30px;
+  padding: 30px;
+  align-items: center;
+  display: flex;
+  background: rgb(15 160 15 / 5%);
+  border: 1px solid rgb(15 160 15 / 5%);
+  box-shadow: 0px 20px 50px -10px rgb(50 93 88 / 15%);
+}
+.get-text h3 {
+  color: #fff;
+  margin-bottom: 1px;
+}
+.get-text span a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.get-img svg {
+  background: #0fa00f;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 8px 13px;
+}
+.get-img {
+  margin-right: 14px;
+}
+.get-text span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.socail-tile {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.973px;
+  line-height: 28px;
+  color: #232323;
+  margin-bottom: 22px;
+}
+.get-socail {
+  padding-top: 71px;
+}
+.get-socail ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.get-socail ul {
+  padding: 0;
+}
+.get-socail ul li a {
+  background: #232323;
+  border-radius: 5.74324px;
+  display: block;
+  padding: 5px 11px;
+  transition: 0.5s;
+}
+.get-socail ul li a:hover {
+  background: #0fa00f;
+}
+.get-socail ul li a:hover svg {
+  color: #161616;
+}
+.get-socail ul li a svg {
+  color: #fff;
+  transition: 0.5s;
+}
+.get-qoute .contcat-form-section {
+  margin-top: 0;
+}
