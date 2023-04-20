@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./HeroComponent.css";
 import arrow from "../../Images/arrow.png";
 import play from "../../Images/Play.png";
 import { Link } from "react-router-dom";
+import { IoCloseOutline } from "react-icons/io5";
 
 const HeroComponent = () => {
+  const [modal, setModal] = useState(false);
+  const openModal = () => {
+    if (!modal) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+    setModal(!modal);
+  };
+
   return (
     <section class="troo-da-hero-section" id="troo-da-hero-section">
       <div class="container">
@@ -29,40 +40,35 @@ const HeroComponent = () => {
             </div>
           </div>
           <div class="col-md-5">
-            <button
-              type="button"
-              class="videobtn"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
+            <button className="videobtn" onClick={openModal}>
               <div class="bg"></div>
               <img src={play} alt="play" />
+              {modal ? (
+                <section className="modal__bg">
+                  <div className="modal__align">
+                    <div className="modal__content" modal={modal}>
+                      <IoCloseOutline
+                        className="modal__close"
+                        arial-label="Close modal"
+                        onClick={setModal}
+                      />
+                      <div className="modal__video-align">
+                        <iframe
+                          className="modal__video-style"
+                          width="800"
+                          height="500"
+                          src="https://www.youtube.com/embed/pXxsZtcbKdw?start=96"
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              ) : null}
             </button>
-            <div
-              class="modal fade"
-              id="exampleModal"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body">
-                    <video controls>
-                      <source src="movie.mp4" type="video/mp4" />
-                    </video>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

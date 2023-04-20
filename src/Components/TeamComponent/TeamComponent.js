@@ -1,17 +1,8 @@
 import React from "react";
 import "./TeamComponent.css";
-import {
-  FaTwitter,
-  FaFacebookF,
-  FaLinkedinIn,
-  FaInstagram,
-} from "react-icons/fa";
-import team1 from "../../Images/team-1.png";
-import team2 from "../../Images/team-2.png";
-import team3 from "../../Images/team-3.png";
-import team4 from "../../Images/team-4.png";
 import biArrow from "../../Images/bl-arrow.png";
 import { Link } from "react-router-dom";
+import { TeamData } from "./TeamData";
 
 const TeamComponent = () => {
   return (
@@ -22,7 +13,6 @@ const TeamComponent = () => {
             <div class="sub-txt">
               <span>Our Creative Team</span>
               <h2>
-                
                 Team Behind
                 <br /> Our Successful Projects
               </h2>
@@ -30,146 +20,30 @@ const TeamComponent = () => {
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3">
-            <div class="team-col">
-              <div class="team-img">
-                <img src={team1} alt="team1" />
-              </div>
-              <div class="team-txt">
-                <h3>Hackson Willi</h3>
-                <p>CEO and Founder</p>
-              </div>
-              <div class="team-deatils">
-                <ul>
-                  <li>
-                    <Link to="#">
-                      <FaFacebookF />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <FaTwitter />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <FaInstagram />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <FaLinkedinIn />
-                    </Link>
-                  </li>
-                </ul>
+          {TeamData.map((e, i) => (
+            <div class="col-md-3" key={i}>
+              <div class="team-col">
+                <div class="team-img">
+                  <img src={e.img} alt="team1" />
+                </div>
+                <div class="team-txt">
+                  <h3>{e.name} </h3>
+                  <p>{e.title} </p>
+                </div>
+                <div class="team-deatils">
+                  <ul>
+                    {e.social.map((ele, ind) => (
+                      <li key={ind}>
+                        <Link to={ele.path} >{ele.icon}</Link>
+                      </li>
+                    ))}
+                    
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="team-col">
-              <div class="team-img">
-                <img src={team2} alt="team2" />
-              </div>
-              <div class="team-txt">
-                <h3>Alexa Boss</h3>
-                <p>Project Manager</p>
-              </div>
-              <div class="team-deatils">
-                <ul>
-                  <li>
-                    <Link to="#">
-                      <FaFacebookF />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <FaTwitter />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <FaInstagram />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <FaLinkedinIn />
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="team-col">
-              <div class="team-img">
-                <img src={team3} alt="team3" />
-              </div>
-              <div class="team-txt">
-                <h3>Adam Spears</h3>
-                <p>Techician</p>
-              </div>
-              <div class="team-deatils">
-                <ul>
-                  <li>
-                    <Link to="#">
-                      <FaFacebookF />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <FaTwitter />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <FaInstagram />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <FaLinkedinIn />
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="team-col">
-              <div class="team-img">
-                <img src={team4} alt="team4" />
-              </div>
-              <div class="team-txt">
-                <h3>Diana Watson</h3>
-                <p>Marketing Manager</p>
-              </div>
-              <div class="team-deatils">
-                <ul>
-                  <li>
-                    <Link to="#">
-                      <FaFacebookF />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <FaTwitter />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <FaInstagram />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <FaLinkedinIn />
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          ))}
+          
         </div>
         <div class="row">
           <div class="col-md-12">

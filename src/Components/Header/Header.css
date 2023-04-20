@@ -1,6 +1,12 @@
 .header {
   position: relative;
-  z-index: 9;
+  z-index: 99999999;
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+}
+.stickynav {
+  background-color: #232323;
 }
 section#troo-da-header-section {
   padding: 0px 69px;
@@ -50,10 +56,14 @@ li.nav-item.active:after {
   line-height: 32px;
   color: #ffffff;
   opacity: 0.5;
-  padding: 28px 24px;
+  padding: 31px 24px;
 }
 li.nav-item.active a.nav-link {
   opacity: 1 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 24px !important ;
+  padding-left: 24px !important;
 }
 
 .nav-link.test.dropdown {
@@ -63,12 +73,13 @@ li.nav-item.active a.nav-link {
   font-size: 16px;
   line-height: 32px;
   color: #ffffff;
-  padding: 28px 24px;
+  padding: 31px 24px;
 }
 .nav-link.test button.btn.btn-primary {
   background: transparent;
   border-color: transparent;
   opacity: 0.5;
+  padding: 0;
 }
 .dropdown-menu.show {
   top: 67px !important;
@@ -84,6 +95,7 @@ a.dropdown-item {
   color: #ffffff;
 }
 .get-col a {
+  min-width: 185px;
   transition: 0.5s;
   display: inline-block;
   border: 1px solid #ffffff;
@@ -97,12 +109,17 @@ a.dropdown-item {
   padding: 15px 21px;
   text-decoration: none;
 }
+.get-col a:hover {
+  background-color: #000;
+  color: #fff;
+}
 .get-col a span {
   margin-right: 10px;
 }
 .call-us {
   display: flex;
   margin-left: 39px;
+  min-width: 225px;
 }
 .call-text {
   margin-left: 19px;
@@ -209,7 +226,7 @@ button.hum-btn {
   color: #000;
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 1880px) {
   a.navbar-brand img {
     max-width: 200px;
   }
@@ -220,11 +237,12 @@ button.hum-btn {
     margin-left: 10px;
     margin-right: 10px;
   }
-  header section#troo-da-header-section a.nav-link {
-    padding: 4px 15px;
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
   }
   .get-col a {
-    padding: 5px 17px;
+    padding: 10px 17px;
   }
   .call-us {
     display: flex;
@@ -235,9 +253,83 @@ button.hum-btn {
   }
   button.hum-btn {
     right: 4px;
-    top: 23px;
+    top: 35px;
   }
   .call-text {
     margin-left: 9px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .call-us {
+    display: none;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+  }
+}
+@media (max-width: 1250px) {
+  .drawer {
+    display: none;
+  }
+  .get-col {
+    display: none;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+  }
+  .nav-link.test.dropdown {
+    padding: 15px 24px;
+  }
+  .header section#troo-da-header-section a.nav-link {
+    padding: 15px 24px;
+  }
+  .navbar-brand a img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../../Images/Humberg.png) !important;
+  }
+  button.navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background: #104c10;
+    padding-left: 17px;
+    margin: 23px 7px;
+  }
+  .call-us {
+    margin-left: 0;
+    padding-top: 27px;
+    padding-bottom: 32px;
+  }
+  .get-col {
+    margin-top: 20px;
+  }
+  .call-text a {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  li.nav-item.active:after {
+    display: none;
+  }
+  li.nav-item:after {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  #troo-da-header-section{
+    background-color: #232323 !important;
   }
 }

@@ -8,9 +8,10 @@ import DropdownButton from "react-bootstrap/DropdownButton";
 const NavMenu = ({ item }) => {
   const location = useLocation();
   const navigate = useNavigate();
-
   let arr = location.pathname?.split("/");
   let lastvalue = arr[arr.length - 1].trim().replace(/_/g, " ");
+  console.log(lastvalue);
+
   return (
     <>
       <li className="nav-item">
@@ -18,8 +19,6 @@ const NavMenu = ({ item }) => {
           <NavLink
             className="nav-link"
             to={item.path}
-            
-            
           >
             <div>{item.title}</div>
           </NavLink>

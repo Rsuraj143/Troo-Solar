@@ -48,3 +48,47 @@ section#troo-da-error-section .row {
 .error-text {
   padding: 0 151px 5px 88px;
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .error-img img {
+    width: 100%;
+  }
+  .error-text {
+    padding: 65px 0 50px 0;
+  }
+  .error-cta {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1024px) {
+  .error-img img {
+    width: 100%;
+  }
+  .error-text {
+    padding: 65px 0 50px 0;
+  }
+  .error-cta {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 991px) {
+  .error-img img {
+    width: 100%;
+  }
+  .error-text {
+    padding: 65px 0 50px 0;
+  }
+  .error-cta {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 767px) {
+  
+}

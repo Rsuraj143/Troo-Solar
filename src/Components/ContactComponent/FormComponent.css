@@ -122,3 +122,31 @@ button.read-cta.green-btn img {
 .field {
   margin-bottom: 30px;
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  #troo-da-form-section .bg-reviw span {
+    font-size: 100px;
+    line-height: 84px;
+    top: 21px;
+  }
+}
+
+@media (max-width: 991px) {
+  #troo-da-form-section .bg-reviw span {
+    font-size: 62px;
+    line-height: 84px;
+    top: 21px;
+  }
+  .contcat-form-section {
+    padding: 50px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contcat-form-section {
+    padding: 50px 20px;
+  }
+  button.read-cta.green-btn {
+    margin: 0;
+  }
+}

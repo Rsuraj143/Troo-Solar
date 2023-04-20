@@ -4,6 +4,7 @@ section#troo-da-faq-section .sub-txt {
 section#troo-da-faq-section {
   position: relative;
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 section#troo-da-faq-section:after {
   background-image: url(../../Images/faq-bg.png);
@@ -133,4 +134,22 @@ button.accordion-button.collapsed {
 }
 .quistions-section {
   margin-top: 50px;
+}
+
+@media (max-width: 991px) {
+  .col-detals {
+    flex-wrap: wrap;
+  }
+  .call-deails {
+    padding-bottom: 14px;
+  }
+  .call-deails:last-child {
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 767px) {
+  section#troo-da-faq-section {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
 }

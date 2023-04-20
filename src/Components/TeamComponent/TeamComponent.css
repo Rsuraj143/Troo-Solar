@@ -84,6 +84,10 @@ section#troo-da-team-section {
 }
 
 /* team Component2 */
+section#troo-da-meet-team-section {
+  padding-top: 100px;
+}
+
 #troo-da-meet-team-section .sub-txt {
   text-align: center;
   margin-bottom: 60px;
@@ -104,4 +108,33 @@ section#troo-da-team-section {
   -ms-filter: grayscale(0);
   -o-filter: grayscale(0);
   filter: grayscale(0);
+}
+
+@media (max-width: 1024px) {
+  .team-txt h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 991px) {
+  .team-txt {
+    margin: 0;
+    padding: 16px 0;
+    top: -91px;
+  }
+  .team-txt h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  section#troo-da-meet-team-section {
+    padding-top: 50px;
+  }
+  section#troo-da-team-section {
+    padding-bottom: 100px;
+    padding-top: 50px;
+  }
+  .team-txt {top: -40px;}
 }

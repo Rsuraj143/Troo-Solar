@@ -7,8 +7,10 @@ import WorkingProcess from "../Components/WorkingProcess/WorkingProcess";
 import ProjectListCompoenent from "../Components/ProjectComponent/ProjectListCompoenent";
 import TeamComponent from "../Components/TeamComponent/TeamComponent";
 import ReviewComponent from "../Components/ReviewComponent/ReviewComponent";
+import useDocumentTitle from "../PageTitle";
 
 const About = () => {
+  useDocumentTitle("TRoo Solar | About ")
   return (
     <div className="about">
       <Header />

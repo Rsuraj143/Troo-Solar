@@ -144,3 +144,32 @@ section#troo-da-stages-section {
   .ins-tile:after {
   display: none;
 }
+
+@media (max-width: 991px) {
+  .installation-stages.btn-bttom {
+    top: 70%;
+  }
+  .ins-tile {
+    max-width: 204px;
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ins-tile:after {
+    display: none;
+  }
+  .installation-stages.btn-bttom {
+    top: 39px;
+  }
+  .sub-txt h2 {
+    font-size: 30px;
+    line-height: 36px; /*new-css*/
+    margin-bottom: 40px; /*new-css*/
+  }
+  .sub-txt h2 br {
+    display: none;
+  }
+  #troo-da-stages-section .sub-txt {margin-bottom: 40px;}
+}

@@ -121,3 +121,10 @@ body h5 {
   border-radius: 100px;
   border: none;
 }
+
+@media (max-width: 991px) {
+  body h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+}

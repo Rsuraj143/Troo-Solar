@@ -193,6 +193,7 @@ section#troo-da-service-list-section .row {
 }
 section#troo-da-service-deails-section {
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 ul.pro-li strong {
   font-family: "Montserrat";
@@ -220,4 +221,32 @@ ul.pro-li {
 }
 video {
   width: 100%;
+}
+
+@media (max-width: 767px) {
+  .servic-list-img img {
+    width: 100%;
+  }
+  .servic-list-text {
+    padding-left: 0;
+    padding-top: 30px;
+  }
+  .servic-list-text.left-txt {
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+  section#troo-da-service-deails-section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .service-detils img {
+    width: 100%;
+    margin-bottom: 45px;
+  }
+  video {
+    width: 100%;
+  }
+  .servic-overview {margin-top: 0px !important;}
+  .servic-list-text.left-txt {text-align: left;}
+    .servic-list-text.left-txt h3:after {left: 0; right: unset;}
 }

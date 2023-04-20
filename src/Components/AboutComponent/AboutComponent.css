@@ -69,7 +69,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.ex-tm strong {
+.ex-tm .strong {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -79,6 +79,15 @@
     color: #232323;
     display: block;
     margin-bottom: 2px;
+}
+.ex-tm .strong .counternum{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #232323;
 }
 .ex-tm span {
     font-family: 'Montserrat';
@@ -100,4 +109,8 @@
 }
 .who-text h4 {
     margin-bottom: 15px;
+}
+
+@media(max-width:767px) {
+    .who-text {padding-left: 0;padding-top: 50px; }
 }

@@ -74,5 +74,37 @@ section#troo-da-contact-section .contcat-form-section h2 {
 }
 section#troo-da-contact-section {
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  section#troo-da-contact-section .contcat-form-section h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  section#troo-da-contact-section .contcat-form-section h2 {
+    font-size: 25px;
+    line-height: 34px;
+  }
+}
+@media (max-width: 767px) {
+  section#troo-da-contact-section .contact-section strong {
+    font-size: 23px;
+    line-height: 25px;
+    margin-bottom: 26px;
+  }
+  section#troo-da-contact-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  section#troo-da-contact-section .contcat-form-section h2 {
+    font-size: 25px;
+    line-height: 34px;
+  }
+  section#troo-da-contact-section .contact-section span {
+    margin-bottom: 10px;
+  }
+}

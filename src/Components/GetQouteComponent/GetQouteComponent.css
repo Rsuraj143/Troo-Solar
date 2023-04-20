@@ -108,3 +108,43 @@
 .get-qoute .contcat-form-section {
   margin-top: 0;
 }
+
+@media (max-width: 991px) {
+  .work-together {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 52px;
+  }
+  .get-mail {
+    flex-wrap: wrap;
+    padding: 15px;
+    display: block;
+  }
+  .get-text {
+    padding-top: 15px;
+  }
+  .get-socail {
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .work-together {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 52px;
+  }
+  .get-mail {
+    flex-wrap: wrap;
+    padding: 15px;
+    display: block;
+  }
+  .get-text {
+    padding-top: 15px;
+  }
+  .get-socail {
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
+}

@@ -4,9 +4,9 @@
   background-image: url(../../Images/pricing-bg.png);
   background-position: 45%;
 }
-.pricing #troo-da-pricing-tabble-section{
+.pricing #troo-da-pricing-tabble-section {
   background-image: none;
-  padding-top: 0;
+  padding-top: 100px;
 }
 section#troo-da-pricing-tabble-section .row {
   align-items: center;
@@ -62,6 +62,8 @@ section#troo-da-pricing-tabble-section .row {
 }
 .princing-btn {
   margin-top: 50px;
+  position: relative;
+  z-index: 9;
 }
 .pric-img img {
   filter: gray;
@@ -90,9 +92,11 @@ section#troo-da-pricing-tabble-section .row {
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
-  padding: 11px 116px;
   transition: 0.5s;
   border: none;
+  padding: 11px 20px;
+  max-width: 330px;
+  width: 100%;
 }
 .pricing-col:hover .princing-btn button {
   background-color: #0fa00f;
@@ -169,4 +173,46 @@ section#troo-da-pricing-tabble-section .row {
 .pricing-col li.disable span {
   color: #232323;
   opacity: 0.5;
+}
+
+@media (max-width: 1024px) {
+  .princing-btn button {
+    padding: 11px 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .pri-tt strong {
+    font-size: 22px;
+  }
+  .pri-tt span {
+    font-size: 14px;
+  }
+  .princing-btn button {
+    padding: 11px 22px;
+    font-size: 15px;
+  }
+  .pricing-tile {
+    flex-wrap: wrap;
+  }
+  .pricing-tile h4 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .pri-tt strong {
+    font-size: 27px;
+  }
+  section#troo-da-pricing-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .princing-btn button {
+    max-width: 230px;
+  }
+  #troo-da-pricing-tabble-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }

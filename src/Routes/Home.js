@@ -13,8 +13,10 @@ import PortfolioComponent from '../Components/PortfolioComponent/PortfolioCompon
 import FormComponent from '../Components/ContactComponent/FormComponent'
 import PricingComponent from '../Components/PricingComponent/PricingComponent'
 import BlogComponent from '../Components/BlogComponent/BlogComponent'
+import useDocumentTitle from '../PageTitle'
 
 const Home = () => {
+  useDocumentTitle("TRoo Solar | Home ")
   return (
     <div>
       <Header/>

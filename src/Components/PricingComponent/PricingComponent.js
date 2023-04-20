@@ -46,7 +46,7 @@ const PricingComponent = () => {
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
-                </p>{" "}
+                </p>
               </div>
               <div class="pricing-vale">
                 <ul>
@@ -92,7 +92,7 @@ const PricingComponent = () => {
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
-                </p>{" "}
+                </p>
               </div>
               <div class="pricing-vale">
                 <ul>

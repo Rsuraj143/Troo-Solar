@@ -227,3 +227,122 @@ img.hover-im {
 .all-project .read-cta.green-btn {
   text-align: right;
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .latest-txt span {
+    padding-left: 39px;
+  }
+  .latest-txt span:after {
+    right: 84%;
+  }
+  .latest-txt.smater-text span::after {
+    left: inherit;
+    right: -65px;
+  }
+  .latest-txt.smater-text span {
+    padding-right: 56px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .project-text {
+    right: -29px;
+  }
+  .project-col img {
+    width: 100%;
+  }
+  .project-text img {
+    width: auto;
+  }
+  .text-pr {
+    text-align: left;
+    padding-top: 16px;
+  }
+  .project-col:hover .project-text {
+    height: 140px;
+  }
+  .latest-txt.smater-text span::after {
+    display: none;
+  }
+  .latest-txt span:after {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .project-text {
+    bottom: -20px;
+    right: -29px;
+  }
+  .view-pro h2 {
+    font-size: 25px;
+  }
+  .project-text img {
+    width: 14%;
+  }
+  .project-text {
+    opacity: 1;
+    position: relative;
+    overflow: inherit;
+    height: auto;
+    padding: 6px 19px;
+    border-bottom: 1px solid #0fa00f;
+    box-shadow: 0px 8px 24px rgb(149 157 165 / 10%);
+    border-radius: 5px;
+    bottom: 31px;
+    right: 29px;
+    background: #fff;
+  }
+  .text-pr {
+    text-align: left;
+    padding-top: 0;
+  }
+  .project-col:hover .project-text {
+    max-width: 365px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-text img {
+    width: 10%;
+  }
+  .project-text {
+    max-width: 516px;
+  }
+  .text-pr {
+    text-align: left;
+    padding-top: 0;
+  }
+  .project-col:hover .project-text {
+    max-width: 365px;
+    width: 100%;
+    height: auto;
+  }
+  .view-pro h2 {
+    font-size: 25px;
+  }
+  .latest-txt span:after {
+    right: -124px;
+  }
+  .latest-txt {
+    padding-top: 30px;
+  }
+  .latest-txt.smater-text {
+    margin-bottom: 30px;
+  }
+  #troo-da-projects-section .sub-txt {
+    margin-bottom: 20px;
+  }
+  .project-col {
+    margin-top: 0;
+  }
+  .view-pro {padding-top: 15px;}
+  section#troo-da-news-section .read-cta.green-btn {margin-top: 50px;}
+  #troo-da-about-latest-projects-section {padding-top: 20px; padding-bottom: 60px;}
+  section#troo-da-about-latest-projects-section .row {margin-top: 25px;}
+  .latest-txt.smater-text {text-align: left;}
+  .latest-txt.smater-text span{text-align: left;}
+  .all-project .read-cta.green-btn {text-align: center;}
+}

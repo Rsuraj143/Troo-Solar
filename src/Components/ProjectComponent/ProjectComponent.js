@@ -1,14 +1,9 @@
 import React from "react";
 import "./ProjectComponent.css";
-import project1 from "../../Images/project-1.png"
-import pluse from "../../Images/pluse-icon.png"
-import project2 from "../../Images/project-2.png"
-import project3 from "../../Images/project-3.png"
-import project4 from "../../Images/project-4.png"
-import project5 from "../../Images/project-5.png"
-import project6 from "../../Images/project-6.png"
+import pluse from "../../Images/pluse-icon.png";
 import { Link } from "react-router-dom";
-import arrow from "../../Images/arrow.png"
+import arrow from "../../Images/arrow.png";
+import { ProjectData } from "./ProjectData";
 
 const ProjectComponent = () => {
   return (
@@ -26,80 +21,36 @@ const ProjectComponent = () => {
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
-            <div class="project-col">
-              <img src={project1} alt="project1" />
-              <div class="project-text">
-                <img src={pluse} alt="pluse" />
-                <div class="text-pr">
-                  <p>Solar</p>
-                  <span>Solar Heaters On Roof Top</span>
+          {ProjectData.slice(0, 3).map((e, i) => (
+            <div class="col-md-4">
+              <div class="project-col">
+                <img src={e.img} alt="project1" />
+                <div class="project-text">
+                  <img src={pluse} alt="pluse" />
+                  <div class="text-pr">
+                    <p>{e.name} </p>
+                    <span>{e.title} </span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project-col">
-              <img src={project2} alt="project2" />
-              <div class="project-text">
-                <img src={pluse} alt="pluse" />
-                <div class="text-pr">
-                  <p>Solar</p>
-                  <span>Solar Heaters On Roof Top</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project-col">
-              <img src={project3} alt="project3" />
-              <div class="project-text">
-                <img src={pluse} alt="pluse" />
-                <div class="text-pr">
-                  <p>Solar</p>
-                  <span>Solar Heaters On Roof Top</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
         <div class="row">
-          <div class="col-md-4">
-            <div class="project-col">
-              <img src={project4} alt="project4" />
-              <div class="project-text">
-                <img src={pluse} alt="pluse" />
-                <div class="text-pr">
-                  <p>Solar</p>
-                  <span>Solar Heaters On Roof Top</span>
+          {ProjectData.slice(3, 6).map((e, i) => (
+            <div class="col-md-4">
+              <div class="project-col">
+                <img src={e.img} alt="project1" />
+                <div class="project-text">
+                  <img src={pluse} alt="pluse" />
+                  <div class="text-pr">
+                    <p>{e.name} </p>
+                    <span>{e.title} </span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project-col">
-              <img src={project5} alt="project5" />
-              <div class="project-text">
-                <img src={pluse} alt="pluse" />
-                <div class="text-pr">
-                  <p>Solar</p>
-                  <span>Solar Heaters On Roof Top</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project-col">
-              <img src={project6} alt="project6" />
-              <div class="project-text">
-                <img src={pluse} alt="pluse" />
-                <div class="text-pr">
-                  <p>Solar</p>
-                  <span>Solar Heaters On Roof Top</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
         <div class="row">
           <div class="col-md-8">
