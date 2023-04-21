@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  z-index: 99999999;
+  z-index: 999;
   position: sticky;
   top: 0;
   background-color: transparent;
@@ -80,6 +80,9 @@ li.nav-item.active a.nav-link {
   border-color: transparent;
   opacity: 0.5;
   padding: 0;
+}
+li.nav-item.active .nav-link.test button.btn.btn-primary{
+  opacity: 1 !important;
 }
 .dropdown-menu.show {
   top: 67px !important;

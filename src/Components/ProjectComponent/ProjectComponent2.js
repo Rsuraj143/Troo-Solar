@@ -2,6 +2,7 @@ import React from 'react'
 import "./ProjectComponent.css";
 import { ProjectData } from './ProjectData';
 import plus from "../../Images/pluse-icon.png"
+import { Link, createSearchParams } from "react-router-dom";
 
 const ProjectComponent2 = () => {
   return (
@@ -11,7 +12,8 @@ const ProjectComponent2 = () => {
        <div class="row">
        {ProjectData.slice(0, 3).map((e, i) => (
             <div class="col-md-4">
-              <div class="project-col">
+             <Link to={`/Home/Our_Projects/Project_Details?${createSearchParams({id: e.id})}`}>
+             <div class="project-col">
                 <img src={e.img} alt="project1" />
                 <div class="project-text">
                   <img src={plus} alt="pluse" />
@@ -21,6 +23,7 @@ const ProjectComponent2 = () => {
                   </div>
                 </div>
               </div>
+             </Link>
             </div>
           ))}
          
@@ -28,6 +31,7 @@ const ProjectComponent2 = () => {
        <div class="row">
        {ProjectData.slice(3,6).map((e, i) => (
             <div class="col-md-4">
+              <Link to={`/Home/Our_Projects/Project_Details?${createSearchParams({id: e.id})}`}>
               <div class="project-col">
                 <img src={e.img} alt="project1" />
                 <div class="project-text">
@@ -38,6 +42,7 @@ const ProjectComponent2 = () => {
                   </div>
                 </div>
               </div>
+              </Link>
             </div>
           ))}
         
@@ -45,7 +50,8 @@ const ProjectComponent2 = () => {
       <div class="row">
       {ProjectData.slice(6,9).map((e, i) => (
             <div class="col-md-4">
-              <div class="project-col">
+             <Link to={`/Home/Our_Projects/Project_Details?${createSearchParams({id: e.id})}`}>
+             <div class="project-col">
                 <img src={e.img} alt="project1" />
                 <div class="project-text">
                   <img src={plus} alt="pluse" />
@@ -55,6 +61,7 @@ const ProjectComponent2 = () => {
                   </div>
                 </div>
               </div>
+             </Link>
             </div>
           ))}
         

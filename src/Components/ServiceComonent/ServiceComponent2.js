@@ -1,7 +1,7 @@
 import React from "react";
 import "./ServiceComonent.css";
 import greArrow from "../../Images/gr-arrow.png";
-import { Link } from "react-router-dom";
+import { Link, createSearchParams } from "react-router-dom";
 import arrow from "../../Images/bl-arrow.png";
 import { ServiceData } from "./ServiceData";
 
@@ -33,7 +33,7 @@ const ServiceComponent2 = () => {
                   <h3>{e.name}</h3>
                   <p>{e.para} </p>
                   <div class="learn-btn">
-                    <Link href="#">
+                    <Link to={`/Home/Our_Services/Service_Details?${createSearchParams({id : e.id})}`}>
                       Learn More
                       <img src={greArrow} alt="arrow" />
                     </Link>
@@ -55,7 +55,7 @@ const ServiceComponent2 = () => {
                   <h3>{e.name}</h3>
                   <p>{e.para} </p>
                   <div class="learn-btn">
-                    <Link href="#">
+                    <Link to={`/Home/Our_Services/Service_Details?${createSearchParams({id : e.id})}`}>
                       Learn More
                       <img src={greArrow} alt="arrow" />
                     </Link>

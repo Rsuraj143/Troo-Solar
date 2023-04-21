@@ -26,7 +26,7 @@ const Sliderbtn = () => {
               <h4>Menu</h4>
               <ul>
                 <li><Link to="/Home"><FaHome /> Home </Link> </li>
-                <li><Link to="/Home/About"><FaUsers /> About Us </Link></li>
+                <li><Link to="/Home/About_Us"><FaUsers /> About Us </Link></li>
                 <li><Link to="/Home/Our_Services"><FaCog /> Services</Link></li>
                 <li><Link to="/Home/Our_Projects"><FaBriefcase /> Our Work</Link></li>
                 <li><Link to="/Home/Blogs"><FaRss /> Blogs</Link></li>

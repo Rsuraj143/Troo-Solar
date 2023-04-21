@@ -5,6 +5,7 @@ import service4 from "../../Images/services-normal-4.png"
 import service5 from "../../Images/services-normal-5.png"
 import service6 from "../../Images/services-normal-6.png"
 
+
 export const ServiceData = [
   {
     id : 1,

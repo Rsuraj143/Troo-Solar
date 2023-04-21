@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectComponent.css";
 import pluse from "../../Images/pluse-icon.png";
-import { Link } from "react-router-dom";
+import { Link, createSearchParams } from "react-router-dom";
 import arrow from "../../Images/arrow.png";
 import { ProjectData } from "./ProjectData";
 
@@ -22,24 +22,27 @@ const ProjectComponent = () => {
         </div>
         <div class="row">
           {ProjectData.slice(0, 3).map((e, i) => (
-            <div class="col-md-4">
-              <div class="project-col">
-                <img src={e.img} alt="project1" />
-                <div class="project-text">
-                  <img src={pluse} alt="pluse" />
-                  <div class="text-pr">
-                    <p>{e.name} </p>
-                    <span>{e.title} </span>
+              <div class="col-md-4">
+                <Link to={`/Home/Our_Projects/Project_Details?${createSearchParams({id: e.id})}`}>
+                <div class="project-col">
+                  <img src={e.img} alt="project1" />
+                  <div class="project-text">
+                    <img src={pluse} alt="pluse" />
+                    <div class="text-pr">
+                      <p>{e.name} </p>
+                      <span>{e.title} </span>
+                    </div>
                   </div>
                 </div>
+                </Link>
               </div>
-            </div>
           ))}
         </div>
         <div class="row">
           {ProjectData.slice(3, 6).map((e, i) => (
             <div class="col-md-4">
-              <div class="project-col">
+             <Link to={`/Home/Our_Projects/Project_Details?${createSearchParams({id: e.id})}`}>
+             <div class="project-col">
                 <img src={e.img} alt="project1" />
                 <div class="project-text">
                   <img src={pluse} alt="pluse" />
@@ -49,6 +52,7 @@ const ProjectComponent = () => {
                   </div>
                 </div>
               </div>
+             </Link>
             </div>
           ))}
         </div>

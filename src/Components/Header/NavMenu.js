@@ -10,11 +10,11 @@ const NavMenu = ({ item }) => {
   const navigate = useNavigate();
   let arr = location.pathname?.split("/");
   let lastvalue = arr[arr.length - 1].trim().replace(/_/g, " ");
-  console.log(lastvalue);
+  let filt = item.subNav?.find((s)=>s.subTitle === lastvalue)
 
   return (
     <>
-      <li className="nav-item">
+      <li className={item.title === lastvalue || filt  ?"nav-item active" : "nav-item"}>
         {!item?.subNav ? (
           <NavLink
             className="nav-link"
@@ -24,15 +24,12 @@ const NavMenu = ({ item }) => {
           </NavLink>
         ) : (
           <DropdownButton
-            className={
-              location.pathname.includes(item.title)
-                ? "nav-link test active"
-                : "nav-link test "
-            }
+            className="nav-link test"
             id="dropdown-basic-button"
             title={item.title}
           >
             {item.subNav.map((item, i) => {
+            
               return (
                 <Dropdown.Item
                   key={i}

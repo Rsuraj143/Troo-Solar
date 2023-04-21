@@ -1,5 +1,5 @@
 import React from "react";
-import green from "../../Images/green.png";
+import green1 from "../../Images/green.png";
 import green2 from "../../Images/green-2.png";
 import green3 from "../../Images/green-3.png";
 import green4 from "../../Images/green-4.png";
@@ -31,7 +31,7 @@ const ServiceListComponent = () => {
         <div class="row">
           <div class="col-md-6">
             <div class="servic-list-img">
-              <img src={green} alt="green" />
+              <img src={green1} alt="green" />
             </div>
           </div>
           <div class="col-md-6">

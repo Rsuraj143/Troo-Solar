@@ -1,12 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import blog1 from "../../Images/blog-1.png";
-import blog2 from "../../Images/blog-2.png";
-import blog3 from "../../Images/blog-3.png";
-import blog4 from "../../Images/blog-4.png";
+import { Link, createSearchParams } from "react-router-dom";
 import scarch from "../../Images/search.png";
 import call from "../../Images/phone-call.svg";
-
+import { BlogData } from "./BlogData";
 import blImg from "../../Images/bl-arrow.png";
 
 const BlogListComponent = () => {
@@ -18,84 +14,23 @@ const BlogListComponent = () => {
       <div class="container">
         <div class="row">
           <div class="col-md-8">
-            <div class="service-detils blog-ss">
-              <Link href="#">
-                <strong>December 8, 2020- By: Admin</strong>
-                <img src={blog1} alt="blog1" />
-                <h2>Newly Built Customized Hydro Plants</h2>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribu ssfr4 and tion of letters, as opposed to using
-                  'Content here, content here', making it look like readable
-                  English. Many desktop publishing packages and web page editors
-                  now use Lorem Ipsum as their default model text.
-                </p>
-                <span>
-                  Learn More <img src={blImg} alt="blImg" />
-                </span>
-              </Link>
-            </div>
-            <div class="service-detils blog-ss">
-              <Link href="#">
-                <strong>December 8, 2020- By: Admin</strong>
-                <img src={blog2} alt="blog2" />
-                <h2>Home Windmill, Reuse & Maintenance</h2>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribu ssfr4 and tion of letters, as opposed to using
-                  'Content here, content here', making it look like readable
-                  English. Many desktop publishing packages and web page editors
-                  now use Lorem Ipsum as their default model text.
-                </p>
-                <span>
-                  Learn More <img src={blImg} alt="blImg" />
-                </span>
-              </Link>
-            </div>
-            <div class="service-detils blog-ss">
-              <Link href="#">
-                <strong>December 8, 2020- By: Admin</strong>
-                <img src={blog3} alt="blog3" />
-                <h2>We Re-shaping Energy For a Better Quality</h2>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribu ssfr4 and tion of letters, as opposed to using
-                  'Content here, content here', making it look like readable
-                  English. Many desktop publishing packages and web page editors
-                  now use Lorem Ipsum as their default model text.
-                </p>
-                <span>
-                  Learn More <img src={blImg} alt="blImg" />
-                </span>
-              </Link>
-            </div>
-            <div class="service-detils blog-ss">
-              <Link href="#">
-                <strong>December 8, 2020- By: Admin</strong>
-                <img src={blog4} alt="blog4" />
-                <h2>Avoid Solar Panels Damage Your Top Roof</h2>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribu ssfr4 and tion of letters, as opposed to using
-                  'Content here, content here', making it look like readable
-                  English. Many desktop publishing packages and web page editors
-                  now use Lorem Ipsum as their default model text.
-                </p>
-                <span>
-                  Learn More <img src={blImg} alt="blImg" />
-                </span>
-              </Link>
-            </div>
+            {BlogData.slice(0, 4).map((e, i) => (
+              <div class="service-detils blog-ss">
+                <Link to={`/Home/Blogs/Blog_Details?${createSearchParams({id: e.id})}`}>
+                  <strong>{e.date}</strong>
+                  <img src={e.img2} alt="blog1" />
+                  <h2>
+                    {e.title1}
+                    {e.title2}
+                  </h2>
+                  <p>{e.para}</p>
+                  <span>
+                    Learn More <img src={blImg} alt="blImg" />
+                  </span>
+                </Link>
+              </div>
+            ))}
           </div>
-
           <div class="col-md-4">
             <div class="sidebar">
               <div class="search-container">

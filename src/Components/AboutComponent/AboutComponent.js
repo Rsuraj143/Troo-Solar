@@ -71,7 +71,7 @@ const AboutComponent = () => {
                 galley of type and it is scrambled.
               </p>
               <div class="read-cta">
-                <Link to="#">
+                <Link to="/Home/About_Us">
                   Learn More <img src={biArrow} alt="biArrow" />
                 </Link>
               </div>
