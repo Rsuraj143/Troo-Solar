@@ -157,9 +157,6 @@ section#troo-da-stages-section {
 }
 
 @media (max-width: 767px) {
-  section#troo-da-stages-section{
-    padding-bottom: 50px;
-  }
   .ins-tile:after {
     display: none;
   }
@@ -167,7 +164,7 @@ section#troo-da-stages-section {
     top: 39px;
   }
   .sub-txt h2 {
-    font-size: 30px;
+    font-size: 26px;
     line-height: 36px; /*new-css*/
     margin-bottom: 40px; /*new-css*/
   }
@@ -182,5 +179,8 @@ section#troo-da-stages-section {
 @media (max-width: 540px) {
   section#troo-da-stages-section .container{
     padding: 0 20px;
+  }
+  section#troo-da-stages-section{
+    padding: 50px 0;
   }
 }

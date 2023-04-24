@@ -139,4 +139,7 @@ section#troo-da-offer-section .read-cta {
   .services-list .troo-da-service-list-section .container{
     padding: 0 20px;
   }
+  #troo-da-offer-section{
+    padding: 50px 0;
+  }
 }
