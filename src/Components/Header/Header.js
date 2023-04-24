@@ -11,8 +11,6 @@ import { useEffect, useState } from "react";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
- 
-
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
@@ -36,7 +34,7 @@ const Header = () => {
 
   return (
     <div className={`header ${isScrolled ? "stickynav" : ""}`} >
-      <section class="troo-da-header-section" id="troo-da-header-section">
+      <section className="troo-da-header-section" id="troo-da-header-section">
         <Navbar expand="lg" bg="light" >
           <Navbar.Brand>
             <Link to="/Home">
@@ -60,11 +58,11 @@ const Header = () => {
                 );
               })}
             </div>
-            <div class="call-us">
-              <div class="cll-img">
+            <div className="call-us">
+              <div className="cll-img">
                 <img src={phone} alt="phone" />
               </div>
-              <div class="call-text">
+              <div className="call-text">
                 <strong>Call Us on</strong>
                 <a href="tel:+44 123 456 7890">+44 123 456 7890</a>
               </div>

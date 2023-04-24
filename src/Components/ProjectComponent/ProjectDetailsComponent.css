@@ -250,3 +250,9 @@ video {
   .servic-list-text.left-txt {text-align: left;}
     .servic-list-text.left-txt h3:after {left: 0; right: unset;}
 }
+
+@media (max-width: 540px) {
+  section#troo-da-service-deails-section .container{
+    padding: 0 20px;
+  }
+}

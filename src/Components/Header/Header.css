@@ -107,7 +107,6 @@ a.dropdown-item {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 32px;
   color: #ffffff;
   padding: 15px 21px;
   text-decoration: none;
@@ -146,8 +145,8 @@ a.dropdown-item {
 }
 button.hum-btn {
   position: absolute;
-  right: 58px;
-  top: 45px;
+  right: 60px;
+  top: 35px;
   background: transparent;
   border: none;
 }

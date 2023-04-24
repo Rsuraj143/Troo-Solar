@@ -8,14 +8,14 @@ import blImg from "../../Images/bl-arrow.png";
 const BlogListComponent = () => {
   return (
     <section
-      class="troo-da-service-deails-section"
+      className="troo-da-service-deails-section"
       id="troo-da-service-deails-section"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8">
             {BlogData.slice(0, 4).map((e, i) => (
-              <div class="service-detils blog-ss">
+              <div className="service-detils blog-ss">
                 <Link to={`/Home/Blogs/Blog_Details?${createSearchParams({id: e.id})}`}>
                   <strong>{e.date}</strong>
                   <img src={e.img2} alt="blog1" />
@@ -31,9 +31,9 @@ const BlogListComponent = () => {
               </div>
             ))}
           </div>
-          <div class="col-md-4">
-            <div class="sidebar">
-              <div class="search-container">
+          <div className="col-md-4">
+            <div className="sidebar">
+              <div className="search-container">
                 <strong>Search</strong>
                 <form action="/action_page.php">
                   <input type="text" name="search" />
@@ -43,7 +43,7 @@ const BlogListComponent = () => {
                 </form>
               </div>
               <h3>Categories</h3>
-              <div class="cat-list">
+              <div className="cat-list">
                 <ul>
                   <li>
                     <strong>Solar Power</strong>
@@ -71,7 +71,7 @@ const BlogListComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="tag-col">
+              <div className="tag-col">
                 <ul>
                   <li>
                     <Link href="#">Solar Power</Link>
@@ -93,17 +93,17 @@ const BlogListComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="emergency-col">
+              <div className="emergency-col">
                 <span>Need Emergency?</span>
                 <h4>Don’t Be Hesitate To Contact Us</h4>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing typesetting.
                 </p>
-                <div class="call-us">
-                  <div class="cll-img">
+                <div className="call-us">
+                  <div className="cll-img">
                     <img src={call} alt="call" />
                   </div>
-                  <div class="call-text">
+                  <div className="call-text">
                     <strong>Call Us on</strong>
                     <a href="tel:+44 123 456 7890">+44 123 456 7890</a>
                   </div>

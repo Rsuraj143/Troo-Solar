@@ -83,7 +83,21 @@ section#troo-da-choose-section {
   }
 }
 
-@media(max-width:767px) {
-  .chose-contetn {padding-left: 0;}
-  section#troo-da-choose-section {padding-top: 50px; padding-bottom: 80px;}
+@media (max-width: 767px) {
+  .chose-contetn {
+    padding-left: 0;
+  }
+  section#troo-da-choose-section {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  #troo-da-choose-section .chose-img{
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 540px){
+  section#troo-da-choose-section .container{
+    padding: 0 20px;
+  }
 }

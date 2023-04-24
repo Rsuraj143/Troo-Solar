@@ -5,20 +5,20 @@ import { ReviewData } from "./ReviewData";
 
 const ReviewComponent = () => {
   return (
-    <section class="troo-da-review-section" id="troo-da-review-section">
-      <div class="bg-reviw">
+    <section className="troo-da-review-section" id="troo-da-review-section">
+      <div className="bg-reviw">
         <span>TESTIMONIAL</span>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="sub-txt">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="sub-txt">
               <span>For Us Review Matter</span>
               <h2> Our Valueable Client’s Review</h2>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="revi-text">
+          <div className="col-md-6">
+            <div className="revi-text">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                 tellus, luctus nec ullamcorper mattis, pulvinar dapibus
@@ -28,15 +28,15 @@ const ReviewComponent = () => {
             </div>
           </div>
         </div>
-        <div class="row clinet-section">
+        <div className="row clinet-section">
           {ReviewData.slice(0, 3).map((e, i) => (
-            <div class="col-md-4">
-              <div class="client-col">
-                <div class="client-img">
+            <div className="col-md-4">
+              <div className="client-col">
+                <div className="client-img">
                   <img src={e.img} alt="client1" />
-                  <div class="cli-text">”</div>
+                  <div className="cli-text">”</div>
                 </div>
-                <div class="client-text">
+                <div className="client-text">
                   <h4>{e.name} </h4>
                   <span>{e.title} </span>
                   <strong>“ {e.comment} ”</strong>
@@ -46,11 +46,11 @@ const ReviewComponent = () => {
             </div>
           ))}
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="rw-botm-text">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="rw-botm-text">
               Want See All Our Client’s Riview ?
-              <Link href="#"> See All Review</Link>
+              <Link to="/Home/Testimonial"> See All Review</Link>
             </div>
           </div>
         </div>

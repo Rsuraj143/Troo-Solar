@@ -95,19 +95,48 @@ section#troo-da-offer-section .read-cta {
   margin-bottom: 30px;
 }
 
-.services-list .troo-da-service-list-section{
+.services-list .troo-da-service-list-section {
   padding-top: 100px;
 }
 
-@media(max-width:991px) {
-  .serv-text h3 { position: relative; margin-bottom: 35px; transition: 0.5s;font-size: 21px; line-height: 32px;}
-    .services-col{padding-left: 10px;padding-right: 10px;}
+@media (max-width: 991px) {
+  .serv-text h3 {
+    position: relative;
+    margin-bottom: 35px;
+    transition: 0.5s;
+    font-size: 21px;
+    line-height: 32px;
+  }
+  .services-col {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
-@media(max-width:767px) {
-  .services-col { margin-top: 30px;}
-  #troo-da-offer-section .sub-txt {text-align: center; margin-bottom: 0px;}
-  .wide-row { flex-direction: column-reverse;}
-  .fossil-row { flex-direction: column-reverse;}
-  .charge-row { flex-direction: column-reverse;}
+@media (max-width: 767px) {
+  .services-col {
+    margin-top: 30px;
+  }
+  #troo-da-offer-section .sub-txt {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .wide-row {
+    flex-direction: column-reverse;
+  }
+  .fossil-row {
+    flex-direction: column-reverse;
+  }
+  .charge-row {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 540px) {
+  .troo-da-offer-section .container{
+    padding: 0 20px;
+  }
+  .services-list .troo-da-service-list-section .container{
+    padding: 0 20px;
+  }
 }

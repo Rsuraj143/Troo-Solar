@@ -77,10 +77,10 @@ section#troo-da-contact-section {
   padding-top: 100px;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+@media (max-width: 1400px) {
   section#troo-da-contact-section .contcat-form-section h2 {
     font-size: 35px;
-    line-height: 40px;
+    line-height: 45px;
   }
 }
 
@@ -106,5 +106,11 @@ section#troo-da-contact-section {
   }
   section#troo-da-contact-section .contact-section span {
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 540px) {
+  section#troo-da-contact-section .container{
+    padding: 0 20px;
   }
 }

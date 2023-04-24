@@ -176,7 +176,18 @@ section#troo-da-foooter-section {
     width: 100%;
     max-width: 200px;
   }
-  .start-col h4{font-size: 27px;}
-  .bottm-footer {margin-top: 20px;}
-  section#troo-da-foooter-section {padding-top: 50px;}
+  .start-col h4 {
+    font-size: 27px;
+  }
+  .bottm-footer {
+    margin-top: 20px;
+  }
+  section#troo-da-foooter-section {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 540px) {
+  section#troo-da-foooter-section .container{
+    padding: 0 20px;
+  }
 }

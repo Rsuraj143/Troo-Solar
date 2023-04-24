@@ -6,11 +6,11 @@ import { BlogData } from "./BlogData";
 
 const BlogComponent = () => {
   return (
-    <section class="troo-da-news-section" id="troo-da-news-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sub-txt">
+    <section className="troo-da-news-section" id="troo-da-news-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="sub-txt">
               <span>Recent News</span>
               <h2>
                 Recent News & Blogs About
@@ -19,18 +19,15 @@ const BlogComponent = () => {
             </div>
           </div>
         </div>
-        <div class="row">
+        <div className="row">
           {BlogData.slice(0, 3).map((e, i) => (
-              <div class="col-md-4">
+              <div className="col-md-4">
                  <Link to={`/Home/Blogs/Blog_Details?${createSearchParams({id: e.id})}`}>
-                <div class="news-col">
-                  <div class="news-cont">
+                <div className="news-col">
+                  <div className="news-cont">
                     <img src={e.img} alt="new1" />
-                    <div class="news-text">
-                      <h4>
-                        {e.title1}
-                        <br /> {e.title2}
-                      </h4>
+                    <div className="news-text">
+                      <h4>{e.title1}</h4>
                       <p>{e.date} </p>
                     </div>
                   </div>
@@ -39,18 +36,15 @@ const BlogComponent = () => {
               </div>
           ))}
         </div>
-        <div class="row">
+        <div className="row">
           {BlogData.slice(3, 6).map((e, i) => (
-            <div class="col-md-4">
+            <div className="col-md-4">
               <Link to={`/Home/Blogs/Blog_Details?${createSearchParams({id : e.id}) }`}>
-              <div class="news-col">
-                <div class="news-cont">
+              <div className="news-col">
+                <div className="news-cont">
                   <img src={e.img} alt="new1" />
-                  <div class="news-text">
-                    <h4>
-                      {e.title1}
-                      <br /> {e.title2}
-                    </h4>
+                  <div className="news-text">
+                    <h4>{e.title1}</h4>
                     <p>{e.date} </p>
                   </div>
                 </div>
@@ -59,10 +53,10 @@ const BlogComponent = () => {
             </div>
           ))}
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="read-cta green-btn">
-              <Link href="#">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="read-cta green-btn">
+              <Link to="/Home/Blogs">
                 Read All Blogs <img src={arrow} alt="arrow" />
               </Link>
             </div>

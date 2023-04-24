@@ -6,18 +6,18 @@ import { Link, createSearchParams } from "react-router-dom";
 
 const ProjectComponent2 = () => {
   return (
-    <section class="troo-da-projects-section" id="troo-da-projects-section"> 
-    <div class="container">
+    <section className="troo-da-projects-section" id="troo-da-projects-section"> 
+    <div className="container">
       
-       <div class="row">
+       <div className="row">
        {ProjectData.slice(0, 3).map((e, i) => (
-            <div class="col-md-4">
+            <div className="col-md-4">
              <Link to={`/Home/Our_Projects/Project_Details?${createSearchParams({id: e.id})}`}>
-             <div class="project-col">
+             <div className="project-col">
                 <img src={e.img} alt="project1" />
-                <div class="project-text">
+                <div className="project-text">
                   <img src={plus} alt="pluse" />
-                  <div class="text-pr">
+                  <div className="text-pr">
                     <p>{e.name} </p>
                     <span>{e.title} </span>
                   </div>
@@ -28,15 +28,15 @@ const ProjectComponent2 = () => {
           ))}
          
        </div>
-       <div class="row">
+       <div className="row">
        {ProjectData.slice(3,6).map((e, i) => (
-            <div class="col-md-4">
+            <div className="col-md-4">
               <Link to={`/Home/Our_Projects/Project_Details?${createSearchParams({id: e.id})}`}>
-              <div class="project-col">
+              <div className="project-col">
                 <img src={e.img} alt="project1" />
-                <div class="project-text">
+                <div className="project-text">
                   <img src={plus} alt="pluse" />
-                  <div class="text-pr">
+                  <div className="text-pr">
                     <p>{e.name} </p>
                     <span>{e.title} </span>
                   </div>
@@ -47,15 +47,15 @@ const ProjectComponent2 = () => {
           ))}
         
       </div>
-      <div class="row">
+      <div className="row">
       {ProjectData.slice(6,9).map((e, i) => (
-            <div class="col-md-4">
+            <div className="col-md-4">
              <Link to={`/Home/Our_Projects/Project_Details?${createSearchParams({id: e.id})}`}>
-             <div class="project-col">
+             <div className="project-col">
                 <img src={e.img} alt="project1" />
-                <div class="project-text">
+                <div className="project-text">
                   <img src={plus} alt="pluse" />
-                  <div class="text-pr">
+                  <div className="text-pr">
                     <p>{e.name} </p>
                     <span>{e.title} </span>
                   </div>

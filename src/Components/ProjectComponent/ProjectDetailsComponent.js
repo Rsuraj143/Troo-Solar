@@ -3,17 +3,20 @@ import "./ProjectDetailsComponent.css";
 import project1 from "../../Images/service-details-1.png"
 import project2 from "../../Images/service-details-2.png"
 import call from "../../Images/phone-call.svg"
+import video from "../../Images/Canvas.move_.mp4"
+import videoImg from "../../Images/vide-img.png"
 
 const ProjectDetailsComponent = () => {
+  
   return (
     <section
-      class="troo-da-service-deails-section"
+      className="troo-da-service-deails-section"
       id="troo-da-service-deails-section"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="service-detils">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8">
+            <div className="service-detils">
               <h2>Expanding The Solar Supply Chain Finance Program</h2>
               <p>
                 It is a long established fact that a reader will be distracted
@@ -26,16 +29,16 @@ const ProjectDetailsComponent = () => {
                 search for 'lorem anf ipsum' will uncover many web sites still
                 in their infancy. Various versions have evolved over the years
               </p>
-              <div class="row">
-                <div class="col-md-6">
+              <div className="row">
+                <div className="col-md-6">
                   <img src={project1} alt="project1" />
                 </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
                   <img src={project2} alt="project2" />
                 </div>
               </div>
-              <div class="row">
-                <div class="servic-overview">
+              <div className="row">
+                <div className="servic-overview">
                   <p>
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
@@ -44,8 +47,8 @@ const ProjectDetailsComponent = () => {
                     opposed to using 'Content here, content here', making it
                     look like readable English.
                   </p>
-                  <div class="row">
-                    <div class="col-md-6">
+                  <div className="row">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           <span>01</span>
@@ -65,7 +68,7 @@ const ProjectDetailsComponent = () => {
                         </li>
                       </ul>
                     </div>
-                    <div class="col-md-6">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           <span>05</span>
@@ -96,8 +99,8 @@ const ProjectDetailsComponent = () => {
                   </p>
                 </div>
               </div>
-              <div class="row">
-                <div class="planing-section">
+              <div className="row">
+                <div className="planing-section">
                   <h3>Challenge</h3>
                   <p>
                     It is a long established fact that a reader will be
@@ -117,7 +120,7 @@ const ProjectDetailsComponent = () => {
                     opposed to using 'Content here, content here', making it
                     look like readable English.
                   </p>
-                  <div class="arch-col">
+                  <div className="arch-col">
                     <h3>Solution</h3>
                     <p>
                       It is a long established fact that a reader will be
@@ -129,10 +132,9 @@ const ProjectDetailsComponent = () => {
                       publishing packages and web page editors now use Lorem
                       Ipsum as their default model text.
                     </p>
-                    <video controls poster="images/vide-img.png">
-                      
+                    <video controls poster={videoImg}>
                       <source
-                        src="images/Canvas.move_.mp4"
+                        src={video}
                         type="video/mp4"
                       />
                     </video>
@@ -142,11 +144,11 @@ const ProjectDetailsComponent = () => {
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="sidebar">
+          <div className="col-md-4">
+            <div className="sidebar">
               <h3>Project Detail</h3>
-              <div class="ser-list">
-                <ul class="pro-li">
+              <div className="ser-list">
+                <ul className="pro-li">
                   <li>
                     <strong>Client:</strong> <span>Denial Thomasan </span>
                   </li>
@@ -158,17 +160,17 @@ const ProjectDetailsComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="emergency-col">
+              <div className="emergency-col">
                 <span>Need Emergency?</span>
                 <h4>Don’t Be Hesitate To Contact Us</h4>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing typesetting.
                 </p>
-                <div class="call-us">
-                  <div class="cll-img">
+                <div className="call-us">
+                  <div className="cll-img">
                     <img src={call} alt="call" />
                   </div>
-                  <div class="call-text">
+                  <div className="call-text">
                     <strong>Call Us on</strong>
                     <a href="tel:+44 123 456 7890">+44 123 456 7890</a>
                   </div>

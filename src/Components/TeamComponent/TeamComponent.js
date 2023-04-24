@@ -6,11 +6,11 @@ import { TeamData } from "./TeamData";
 
 const TeamComponent = () => {
   return (
-    <section class="troo-da-team-section" id="troo-da-team-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sub-txt">
+    <section className="troo-da-team-section" id="troo-da-team-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="sub-txt">
               <span>Our Creative Team</span>
               <h2>
                 Team Behind
@@ -19,18 +19,18 @@ const TeamComponent = () => {
             </div>
           </div>
         </div>
-        <div class="row">
+        <div className="row">
           {TeamData.map((e, i) => (
-            <div class="col-md-3" key={i}>
-              <div class="team-col">
-                <div class="team-img">
+            <div className="col-md-3" key={i}>
+              <div className="team-col">
+                <div className="team-img">
                   <img src={e.img} alt="team1" />
                 </div>
-                <div class="team-txt">
+                <div className="team-txt">
                   <h3>{e.name} </h3>
                   <p>{e.title} </p>
                 </div>
-                <div class="team-deatils">
+                <div className="team-deatils">
                   <ul>
                     {e.social.map((ele, ind) => (
                       <li key={ind}>
@@ -45,10 +45,10 @@ const TeamComponent = () => {
           ))}
           
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="read-cta">
-              <Link href="#">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="read-cta">
+              <Link to="/Home/Our_Team">
                 See All Team Member
                 <img src={biArrow} alt="biArrow" />
               </Link>

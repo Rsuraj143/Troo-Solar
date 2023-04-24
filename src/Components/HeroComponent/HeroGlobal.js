@@ -67,20 +67,20 @@ const HeroGlobal = () => {
 
   return (
     <section
-      class="troo-da-subpagebanner-section"
+      className="troo-da-subpagebanner-section"
       id="troo-da-subpagebanner-section"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sub-page tile">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="sub-page tile">
               <h2>{heading}</h2>
               <span>{details}</span>
             </div>
           </div>
-          <div class="breadcrumb-ss">
+          <div className="breadcrumb-ss">
             <nav>
-              <ul class="breadcrumb">
+              <ul className="breadcrumb">
                 {breadcrumbs.map((breadcrumb, index) => (
                   <li
                     className={`breadcrumb-item${

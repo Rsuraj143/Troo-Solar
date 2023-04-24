@@ -223,11 +223,30 @@
     margin-top: 40px;
   }
   #troo-da-testimonial-section {
-    padding-top: 50px; 
-    padding-bottom: 50px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
-  .bg-reviw{margin-top: -46px;}
-  .client-col {margin-top: 0; margin-bottom: 20px;}
-  .rw-botm-text{margin-top: 20px; margin-bottom: 20px;}
-  #troo-da-review-section {padding-bottom: 25px;}
+  .bg-reviw {
+    margin-top: -46px;
+  }
+  .client-col {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .rw-botm-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #troo-da-review-section {
+    padding-bottom: 25px;
+  }
+}
+
+@media (max-width: 540px) {
+  .troo-da-review-section .container{
+    padding: 0 20px;
+  }
+  #troo-da-testimonial-section .container{
+    padding: 0 20px;
+  }
 }

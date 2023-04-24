@@ -12,8 +12,7 @@ import blog4 from "../../Images/blog-4.png";
 export const BlogData = [
     {
         id : 1,
-        title1 : "Newly Built Customized",
-        title2 : "Hydro Plants",
+        title1 : "Newly Built Customized Hydro Plants",
         date : "December 8, 2020 - By : Admin",
         img : news1,
         img2 :blog1,
@@ -22,8 +21,7 @@ export const BlogData = [
     },
     {
         id : 2,
-        title1 : "Home Windmill, Reuse",
-        title2 : "& Maintenance",
+        title1 : "Home Windmill, Reuse & Maintenance",
         date : "December 8, 2020 - By : Admin",
         img : news2,
         img2 :blog2,
@@ -32,8 +30,7 @@ export const BlogData = [
     },
     {
         id : 3,
-        title1 : "Avoid Solar Panels",
-        title2 : " Damage Your Top Roof",
+        title1 : "Avoid Solar Panels Damage Your Top Roof ",
         date : "December 8, 2020 - By : Admin",
         img : news3,
         img2 :blog3,
@@ -41,8 +38,7 @@ export const BlogData = [
     },
     {
         id : 4,
-        title1 : "The Emergence of New",
-        title2 : " Tech for a Green Future",
+        title1 : "The Emergence of New Tech for a Green Future",
         date : "December 8, 2020 - By : Admin",
         img : news4,
         img2 :blog4,
@@ -50,8 +46,7 @@ export const BlogData = [
     },
     {
         id : 5,
-        title1 : "Mead Before And After",
-        title2 : "The Epic Etars",
+        title1 : "Mead Before And After The Epic Etars",
         date : "December 8, 2020 - By : Admin",
         img : news5,
         img2 :blog1,
@@ -59,8 +54,7 @@ export const BlogData = [
     },
     {
         id : 6,
-        title1 : "We Re-shaping Energy",
-        title2 : "For a Better Quality",
+        title1 : "We Re-shaping Energy For a Better Quality",
         date : "December 8, 2020 - By : Admin",
         img : news6,
         img2 :blog2,

@@ -12,13 +12,13 @@ import { Link } from "react-router-dom";
 const ServiceListComponent = () => {
   return (
     <section
-      class="troo-da-service-list-section"
+      className="troo-da-service-list-section"
       id="troo-da-service-list-section"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sub-txt">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="sub-txt">
               <span>What We Are</span>
               <h2> 
                 Renewable Energy for
@@ -28,14 +28,14 @@ const ServiceListComponent = () => {
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="servic-list-img">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="servic-list-img">
               <img src={green1} alt="green" />
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="servic-list-text">
+          <div className="col-md-6">
+            <div className="servic-list-text">
               <h3>Solar Eco Power</h3>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -52,9 +52,9 @@ const ServiceListComponent = () => {
           </div>
         </div>
 
-        <div class="row wide-row">
-          <div class="col-md-6">
-            <div class="servic-list-text left-txt">
+        <div className="row wide-row">
+          <div className="col-md-6">
+            <div className="servic-list-text left-txt">
               <h3>Wind Turbines Services</h3>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -69,21 +69,21 @@ const ServiceListComponent = () => {
               </Link>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="servic-list-img">
+          <div className="col-md-6">
+            <div className="servic-list-img">
               <img src={green2} alt="green2" />
             </div>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-6">
-            <div class="servic-list-img">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="servic-list-img">
               <img src={green3} alt="green3" />
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="servic-list-text">
+          <div className="col-md-6">
+            <div className="servic-list-text">
               <h3>Htdropower Plants</h3>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -100,9 +100,9 @@ const ServiceListComponent = () => {
           </div>
         </div>
 
-        <div class="row fossil-row">
-          <div class="col-md-6">
-            <div class="servic-list-text left-txt">
+        <div className="row fossil-row">
+          <div className="col-md-6">
+            <div className="servic-list-text left-txt">
               <h3>Fossil Resources</h3>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -117,21 +117,21 @@ const ServiceListComponent = () => {
               </Link>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="servic-list-img">
+          <div className="col-md-6">
+            <div className="servic-list-img">
               <img src={green4} alt="green4" />
             </div>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-6">
-            <div class="servic-list-img">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="servic-list-img">
               <img src={green5} alt="green5" />
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="servic-list-text">
+          <div className="col-md-6">
+            <div className="servic-list-text">
               <h3>Battery Materials</h3>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -147,9 +147,9 @@ const ServiceListComponent = () => {
             </div>
           </div>
         </div>
-        <div class="row charge-row">
-          <div class="col-md-6">
-            <div class="servic-list-text left-txt">
+        <div className="row charge-row">
+          <div className="col-md-6">
+            <div className="servic-list-text left-txt">
               <h3>Charge Controllers</h3>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -164,8 +164,8 @@ const ServiceListComponent = () => {
               </Link>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="servic-list-img">
+          <div className="col-md-6">
+            <div className="servic-list-img">
               <img src={green6} alt="green6" />
             </div>
           </div>

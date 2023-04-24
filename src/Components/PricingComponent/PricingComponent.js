@@ -10,18 +10,18 @@ import { Link } from "react-router-dom";
 const PricingComponent = () => {
   return (
     <section
-      class="troo-da-pricing-tabble-section"
+      className="troo-da-pricing-tabble-section"
       id="troo-da-pricing-tabble-section"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="sub-txt">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="sub-txt">
               <span>Pricing Tabble</span>
               <h2>We Have Affordable price For Your Next Project</h2>{" "}
             </div>
           </div>
-          <div class="col-md-6">
+          <div className="col-md-6">
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -30,25 +30,25 @@ const PricingComponent = () => {
             </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="pricing-col">
-              <div class="pricing-tile">
-                <div class="pri-tt">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="pricing-col">
+              <div className="pricing-tile">
+                <div className="pri-tt">
                   <h4>Residential Area</h4> <strong>$15.00 </strong>
                   <span> / Per Watt</span>
                 </div>
-                <div class="pric-img">
+                <div className="pric-img">
                   <img src={pricingcon1} alt="pricingcon1" />
                 </div>
               </div>
-              <div class="pri-txt">
+              <div className="pri-txt">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </p>
               </div>
-              <div class="pricing-vale">
+              <div className="pricing-vale">
                 <ul>
                   <li>
                     <img src={pricingCheck} alt="pricingCheck" />
@@ -58,43 +58,43 @@ const PricingComponent = () => {
                     <img src={pricingCheck} alt="pricingCheck" />
                     <span>Minimal Energy Waste</span>
                   </li>
-                  <li class="disable">
+                  <li className="disable">
                     <img src={pricingCheck} alt="pricingCheck" />
                     <span>High Density Cells</span>
                   </li>
-                  <li class="disable">
+                  <li className="disable">
                     <img src={pricingCheck} alt="pricingCheck" />
                     <span>Environmental Friendly</span>
                   </li>
-                  <li class="disable">
+                  <li className="disable">
                     <img src={pricingCheck} alt="pricingCheck" />
                     <span> Monitoring & Maintainance</span>
                   </li>
                 </ul>
               </div>
-              <div class="princing-btn">
+              <div className="princing-btn">
                 <button>Purchase plan</button>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="pricing-col">
-              <div class="pricing-tile">
-                <div class="pri-tt">
+          <div className="col-md-4">
+            <div className="pricing-col">
+              <div className="pricing-tile">
+                <div className="pri-tt">
                   <h4>Commercial Area</h4> <strong>$30.00 </strong>
                   <span> / Per Watt</span>
                 </div>
-                <div class="pric-img">
+                <div className="pric-img">
                   <img src={pricingcon2} alt="pricingcon2" />
                 </div>
               </div>
-              <div class="pri-txt">
+              <div className="pri-txt">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </p>
               </div>
-              <div class="pricing-vale">
+              <div className="pricing-vale">
                 <ul>
                   <li>
                     <img src={pricingCheck} alt="pricingCheck" />
@@ -112,35 +112,35 @@ const PricingComponent = () => {
                     <img src={pricingCheck} alt="pricingCheck" />
                     <span>Environmental Friendly</span>
                   </li>
-                  <li class="disable">
+                  <li className="disable">
                     <img src={pricingCheck} alt="pricingCheck" />
                     <span> Monitoring & Maintainance</span>
                   </li>
                 </ul>
               </div>
-              <div class="princing-btn">
+              <div className="princing-btn">
                 <button>Purchase plan</button>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="pricing-col">
-              <div class="pricing-tile">
-                <div class="pri-tt">
+          <div className="col-md-4">
+            <div className="pricing-col">
+              <div className="pricing-tile">
+                <div className="pri-tt">
                   <h4>Agricultral Area</h4> <strong>$50.00 </strong>
                   <span> / Per Watt</span>
                 </div>
-                <div class="pric-img">
+                <div className="pric-img">
                   <img src={pricingcon3} alt="pricingcon3" />
                 </div>
               </div>
-              <div class="pri-txt">
+              <div className="pri-txt">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </p>{" "}
               </div>
-              <div class="pricing-vale">
+              <div className="pricing-vale">
                 <ul>
                   <li>
                     <img src={pricingCheck} alt="pricingCheck" />
@@ -164,15 +164,15 @@ const PricingComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="princing-btn">
+              <div className="princing-btn">
                 <button>Purchase plan</button>
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="all-prcinng">
-            <Link href="#">See All Our Pricing Plan</Link>
+        <div className="row">
+          <div className="all-prcinng">
+            <Link to="/Home/Pricing_Table">See All Our Pricing Plan</Link>
           </div>
         </div>
       </div>

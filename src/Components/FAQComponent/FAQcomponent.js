@@ -5,11 +5,11 @@ import Accordion from "react-bootstrap/Accordion";
 
 const FAQcomponent = () => {
   return (
-    <section class="troo-da-faq-section" id="troo-da-faq-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sub-txt">
+    <section className="troo-da-faq-section" id="troo-da-faq-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="sub-txt">
               <span>How We can Help You ?</span>
               <h2>
                 Popular Asked Questions From <br />
@@ -18,8 +18,8 @@ const FAQcomponent = () => {
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <Accordion>
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>
@@ -89,9 +89,9 @@ const FAQcomponent = () => {
               </Accordion>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="quistions-section">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="quistions-section">
               <h3>Still Have You Quistions?</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
@@ -100,24 +100,24 @@ const FAQcomponent = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="cll-ss">
-              <div class="col-detals">
-                <div class="call-deails">
-                  <div class="icon-cal">
-                    <i class="fa fa-phone" aria-hidden="true"></i>{" "}
+          <div className="col-md-6">
+            <div className="cll-ss">
+              <div className="col-detals">
+                <div className="call-deails">
+                  <div className="icon-cal">
+                    <i className="fa fa-phone" aria-hidden="true"></i>{" "}
                   </div>
-                  <div class="cal-te">
+                  <div className="cal-te">
                     <Link href="#">
                       <span>Call Us on</span> <strong>+44 123 456 7890</strong>
                     </Link>
                   </div>
                 </div>
-                <div class="call-deails">
-                  <div class="icon-cal">
-                    <i class="fa fa-envelope-open" aria-hidden="true"></i>{" "}
+                <div className="call-deails">
+                  <div className="icon-cal">
+                    <i className="fa fa-envelope-open" aria-hidden="true"></i>{" "}
                   </div>
-                  <div class="cal-te">
+                  <div className="cal-te">
                     <Link href="#">
                       <span>Email Us on</span>{" "}
                       <strong>trooenergy@email.com</strong>

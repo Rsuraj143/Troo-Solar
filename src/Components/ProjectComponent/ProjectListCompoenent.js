@@ -10,13 +10,13 @@ import arrow from "../../Images/arrow.png";
 const ProjectListCompoenent = () => {
   return (
     <section
-      class="troo-da-about-latest-projects-section"
+      className="troo-da-about-latest-projects-section"
       id="troo-da-about-latest-projects-section"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sub-txt">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="sub-txt">
               <span>Our Latest Projects</span>
               <h2>
                 Latest Projects, Solutions
@@ -25,14 +25,14 @@ const ProjectListCompoenent = () => {
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-7">
-            <div class="latest-img">
+        <div className="row">
+          <div className="col-md-7">
+            <div className="latest-img">
               <img src={green} alt="green" />
             </div>
           </div>
-          <div class="col-md-5">
-            <div class="latest-txt">
+          <div className="col-md-5">
+            <div className="latest-txt">
               <span>Green energy</span>
               <h3>Expanding The Solar Supply Chain Finance Program</h3>
               <p>
@@ -44,15 +44,15 @@ const ProjectListCompoenent = () => {
                 electronic typesetting, remaining essentially unchanged.{" "}
               </p>
               <Link to="#">
-                Read More <img class="normal-im" src={blArrow} alt="blArrow" />
-                <img class="hover-im" src={grArrow} alt="grArrow" />
+                Read More <img className="normal-im" src={blArrow} alt="blArrow" />
+                <img className="hover-im" src={grArrow} alt="grArrow" />
               </Link>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-5">
-            <div class="latest-txt smater-text">
+        <div className="row">
+          <div className="col-md-5">
+            <div className="latest-txt smater-text">
               <span>Green energy</span>
               <h3>
                 Smarter Ways to Manage
@@ -68,20 +68,20 @@ const ProjectListCompoenent = () => {
                 electronic typesetting, remaining essentially unchanged.{" "}
               </p>
               <Link to="#">
-                Read More <img class="normal-im" src={blArrow} alt="blArrow" />
-                <img class="hover-im" src={grArrow} alt="grArrow" />
+                Read More <img className="normal-im" src={blArrow} alt="blArrow" />
+                <img className="hover-im" src={grArrow} alt="grArrow" />
               </Link>
             </div>
           </div>
-          <div class="col-md-7">
-            <div class="latest-img smart-ss">
+          <div className="col-md-7">
+            <div className="latest-img smart-ss">
               <img src={green2} alt="green2" />
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-5">
-            <div class="peoject-com">
+        <div className="row">
+          <div className="col-md-5">
+            <div className="peoject-com">
               <h2>1826+ Projects Completed</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
@@ -89,10 +89,10 @@ const ProjectListCompoenent = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-7">
-            <div class="all-project">
-              <div class="read-cta green-btn">
-                <Link to="#">
+          <div className="col-md-7">
+            <div className="all-project">
+              <div className="read-cta green-btn">
+                <Link to="/Home/Our_Projects">
                   View All Project <img src={arrow} alt="arrow" />
                 </Link>
               </div>

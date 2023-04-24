@@ -216,3 +216,9 @@ section#troo-da-pricing-tabble-section .row {
     padding-bottom: 50px;
   }
 }
+
+@media (max-width: 540px) {
+  #troo-da-pricing-tabble-section .container{
+    padding: 0 20px;
+  }
+}

@@ -7,11 +7,11 @@ import { ProjectData } from "./ProjectData";
 
 const ProjectComponent = () => {
   return (
-    <section class="troo-da-projects-section" id="troo-da-projects-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sub-txt">
+    <section className="troo-da-projects-section" id="troo-da-projects-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="sub-txt">
               <span>Our Latest Projects</span>
               <h2>
                 Latest Projects, Solutions
@@ -20,15 +20,15 @@ const ProjectComponent = () => {
             </div>
           </div>
         </div>
-        <div class="row">
+        <div className="row">
           {ProjectData.slice(0, 3).map((e, i) => (
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <Link to={`/Home/Our_Projects/Project_Details?${createSearchParams({id: e.id})}`}>
-                <div class="project-col">
+                <div className="project-col">
                   <img src={e.img} alt="project1" />
-                  <div class="project-text">
+                  <div className="project-text">
                     <img src={pluse} alt="pluse" />
-                    <div class="text-pr">
+                    <div className="text-pr">
                       <p>{e.name} </p>
                       <span>{e.title} </span>
                     </div>
@@ -38,15 +38,15 @@ const ProjectComponent = () => {
               </div>
           ))}
         </div>
-        <div class="row">
+        <div className="row">
           {ProjectData.slice(3, 6).map((e, i) => (
-            <div class="col-md-4">
+            <div className="col-md-4">
              <Link to={`/Home/Our_Projects/Project_Details?${createSearchParams({id: e.id})}`}>
-             <div class="project-col">
+             <div className="project-col">
                 <img src={e.img} alt="project1" />
-                <div class="project-text">
+                <div className="project-text">
                   <img src={pluse} alt="pluse" />
-                  <div class="text-pr">
+                  <div className="text-pr">
                     <p>{e.name} </p>
                     <span>{e.title} </span>
                   </div>
@@ -56,9 +56,9 @@ const ProjectComponent = () => {
             </div>
           ))}
         </div>
-        <div class="row">
-          <div class="col-md-8">
-            <div class="view-pro">
+        <div className="row">
+          <div className="col-md-8">
+            <div className="view-pro">
               <h2>1826+ Projects Completed</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
@@ -68,9 +68,9 @@ const ProjectComponent = () => {
               </p>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="read-cta green-btn">
-              <Link href="#">
+          <div className="col-md-4">
+            <div className="read-cta green-btn">
+              <Link to="/Home/Our_Projects">
                 View All Project <img src={arrow} alt="arrow" />
               </Link>
             </div>

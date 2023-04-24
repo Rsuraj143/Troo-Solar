@@ -153,3 +153,9 @@ button.accordion-button.collapsed {
     padding-bottom: 50px;
   }
 }
+
+@media (max-width: 540px) {
+  section#troo-da-faq-section .container{
+    padding: 0 20px;
+  }
+}

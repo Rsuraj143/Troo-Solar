@@ -56,7 +56,7 @@ section#troo-da-coming-section {
 
 .search-container button {
   position: absolute;
-  right: 39px;
+  right: 0;
   border-radius: 5px;
   background: #0fa00f;
   border-radius: 0px 4px 4px 0px;
@@ -70,7 +70,7 @@ section#troo-da-coming-section {
   border: 1px solid #0fa00f;
   border-radius: 5px;
   height: 50px;
-  max-width: 346px;
+  /* max-width: 346px; */
   width: 100%;
 }
 .search-container form {
@@ -102,9 +102,33 @@ section#troo-da-coming-section {
   display: block;
   margin-bottom: 16px;
 }
-
-@media(max-width:767px) {
-  .coming-text { padding: 0px 100px 0 100px;}
-    .coming-title{font-size: 30px;}
-    .coming-title span{font-size: 30px;}
+@media (max-width: 991px) {
+  .coming-text {
+    padding: 0px 50px 0 50px;
+    width: 100%;
+  }
+  .coming-img img{
+    width: 100%;
+  }
+  .coming-img{
+    width: 100%;
+    padding: 0 30px;
+  }
+  .coming-col{
+    display: block;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 414px) {
+  .coming-text {
+    padding: 0px 20px 0 35px;
+  }
+  .coming-title {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .coming-title span {
+    font-size: 30px;
+    line-height: 10px;
+  }
 }

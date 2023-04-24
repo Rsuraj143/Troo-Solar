@@ -8,13 +8,13 @@ import { Link } from "react-router-dom";
 const ServiceDetailsComponent = () => {
   return (
     <section
-      class="troo-da-service-deails-section"
+      className="troo-da-service-deails-section"
       id="troo-da-service-deails-section"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="service-detils">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8">
+            <div className="service-detils">
               <h2>Service Overview</h2>
               <p>
                 It is a long established fact that a reader will be distracted
@@ -27,16 +27,16 @@ const ServiceDetailsComponent = () => {
                 search for 'lorem anf ipsum' will uncover many web sites still
                 in their infancy. Various versions have evolved over the years
               </p>
-              <div class="row">
-                <div class="col-md-6">
+              <div className="row">
+                <div className="col-md-6">
                   <img src={service1} alt="service1" />
                 </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
                   <img src={service2} alt="service2" />
                 </div>
               </div>
-              <div class="row">
-                <div class="servic-overview">
+              <div className="row">
+                <div className="servic-overview">
                   <p>
                     {" "}
                     It is a long established fact that a reader will be
@@ -46,8 +46,8 @@ const ServiceDetailsComponent = () => {
                     opposed to using 'Content here, content here', making it
                     look like readable English.
                   </p>
-                  <div class="row">
-                    <div class="col-md-6">
+                  <div className="row">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           <span>01</span>
@@ -67,7 +67,7 @@ const ServiceDetailsComponent = () => {
                         </li>
                       </ul>
                     </div>
-                    <div class="col-md-6">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           <span>05</span>
@@ -98,8 +98,8 @@ const ServiceDetailsComponent = () => {
                   </p>
                 </div>
               </div>
-              <div class="row">
-                <div class="planing-section">
+              <div className="row">
+                <div className="planing-section">
                   <h3>Planning the environment</h3>
                   <p>
                     It is a long established fact that a reader will be
@@ -112,7 +112,7 @@ const ServiceDetailsComponent = () => {
                     model text.
                   </p>
                   <img src={service3} alt="service3" />
-                  <div class="arch-col">
+                  <div className="arch-col">
                     <h3>Architectural Planning</h3>
                     <p>
                       It is a long established fact that a reader will be
@@ -130,10 +130,10 @@ const ServiceDetailsComponent = () => {
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="sidebar">
+          <div className="col-md-4">
+            <div className="sidebar">
               <h3>All Services</h3>
-              <div class="ser-list">
+              <div className="ser-list">
                 <ul>
                   <li>
                     <Link href="#">Solar Panels</Link>
@@ -155,17 +155,17 @@ const ServiceDetailsComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="emergency-col">
+              <div className="emergency-col">
                 <span>Need Emergency?</span>
                 <h4>Don’t Be Hesitate To Contact Us</h4>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing typesetting.
                 </p>
-                <div class="call-us">
-                  <div class="cll-img">
+                <div className="call-us">
+                  <div className="cll-img">
                     <img src={call} alt="call" />
                   </div>
-                  <div class="call-text">
+                  <div className="call-text">
                     <strong>Call Us on</strong>
                     <a href="tel:+44 123 456 7890">+44 123 456 7890</a>
                   </div>

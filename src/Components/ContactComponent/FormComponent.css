@@ -123,7 +123,7 @@ button.read-cta.green-btn img {
   margin-bottom: 30px;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+@media (max-width: 1400px) {
   #troo-da-form-section .bg-reviw span {
     font-size: 100px;
     line-height: 84px;
@@ -148,5 +148,10 @@ button.read-cta.green-btn img {
   }
   button.read-cta.green-btn {
     margin: 0;
+  }
+}
+@media (max-width: 540px) {
+  .troo-da-form-section .container{
+    padding: 0 20px;
   }
 }

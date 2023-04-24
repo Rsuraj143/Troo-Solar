@@ -9,13 +9,13 @@ import { BlogData } from "./BlogData";
 const BlogDetailsComponent = () => {
   return (
     <section
-      class="troo-da-service-deails-section"
+      className="troo-da-service-deails-section"
       id="troo-da-service-deails-section"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="service-detils blog-ss blog-detal">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8">
+            <div className="service-detils blog-ss blog-detal">
               <strong>December 8, 2020- By: Admin</strong>
               <img src={blog1} alt="blog1" />
               <h2>Newly Built Customized Hydro Plants</h2>
@@ -28,9 +28,9 @@ const BlogDetailsComponent = () => {
                 English. Many desktop publishing packages and web page editors
                 now use Lorem Ipsum as their default model text.
               </p>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="servic-overview">
+              <div className="row">
+                <div className="col-md-6">
+                  <div className="servic-overview">
                     <ul>
                       <li>
                         <span>01</span>
@@ -51,8 +51,8 @@ const BlogDetailsComponent = () => {
                     </ul>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="servic-overview">
+                <div className="col-md-6">
+                  <div className="servic-overview">
                     <ul>
                       <li>
                         <span>05</span>
@@ -83,8 +83,8 @@ const BlogDetailsComponent = () => {
                 English.
               </p>
             </div>
-            <div class="row">
-              <div class="planing-section">
+            <div className="row">
+              <div className="planing-section">
                 <h3>Planning the environment</h3>
                 <p>
                   It is a long established fact that a reader will be distracted
@@ -96,7 +96,7 @@ const BlogDetailsComponent = () => {
                   now use Lorem Ipsum as their default model text.
                 </p>
                 <img src={servicedetails} alt="servicedetails" />
-                <div class="arch-col">
+                <div className="arch-col">
                   <h3>Architectural Planning</h3>
                   <p>
                     It is a long established fact that a reader will be
@@ -112,9 +112,9 @@ const BlogDetailsComponent = () => {
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="sidebar">
-              <div class="search-container">
+          <div className="col-md-4">
+            <div className="sidebar">
+              <div className="search-container">
                 <strong>Search</strong>
                 <form action="/action_page.php">
                   <input type="text" name="search" />
@@ -124,7 +124,7 @@ const BlogDetailsComponent = () => {
                 </form>
               </div>
               <h3>Categories</h3>
-              <div class="cat-list">
+              <div className="cat-list">
                 <ul>
                   <li>
                     <strong>Solar Power</strong>
@@ -152,7 +152,7 @@ const BlogDetailsComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="tag-col">
+              <div className="tag-col">
                 <ul>
                   <li>
                     <Link href="#">Solar Power</Link>
@@ -174,17 +174,17 @@ const BlogDetailsComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="emergency-col">
+              <div className="emergency-col">
                 <span>Need Emergency?</span>
                 <h4>Don’t Be Hesitate To Contact Us</h4>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing typesetting.
                 </p>
-                <div class="call-us">
-                  <div class="cll-img">
+                <div className="call-us">
+                  <div className="cll-img">
                     <img src={phonecall} alt="phonecall" />
                   </div>
-                  <div class="call-text">
+                  <div className="call-text">
                     <strong>Call Us on</strong>
                     <a href="tel:+44 123 456 7890">+44 123 456 7890</a>
                   </div>
@@ -193,15 +193,15 @@ const BlogDetailsComponent = () => {
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="resent-tile">Related Blogs and News</div>
+        <div className="row">
+          <div className="resent-tile">Related Blogs and News</div>
           {BlogData.slice(0, 3).map((e, i) => (
-            <div class="col-md-4">
+            <div className="col-md-4">
               <Link to={`/Home/Blogs/Blog_Details?${createSearchParams({id: e.id,})}`}>
-                <div class="news-col">
-                  <div class="news-cont">
+                <div className="news-col">
+                  <div className="news-cont">
                     <img src={e.img} alt="news" />
-                    <div class="news-text">
+                    <div className="news-text">
                       <h4>
                         {e.title1}
                         <br /> {e.title2}

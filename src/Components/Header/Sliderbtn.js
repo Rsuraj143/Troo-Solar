@@ -19,10 +19,10 @@ const Sliderbtn = () => {
         <Offcanvas show={show} onHide={handleClose} placement="end">
           <Offcanvas.Header closeButton></Offcanvas.Header>
           <Offcanvas.Body>
-            <div class="canva-logo">
+            <div className="canva-logo">
               <img src={logoblack} alt="logoblack" />
             </div>
-            <div class="menu-col">
+            <div className="menu-col">
               <h4>Menu</h4>
               <ul>
                 <li><Link to="/Home"><FaHome /> Home </Link> </li>
@@ -33,12 +33,12 @@ const Sliderbtn = () => {
                 <li><Link to="/Home/Contact_Us"><FaPhone /> Contact</Link></li>
               </ul>
             </div>
-            <div class="read-cta">
+            <div className="read-cta">
               <Link to="/Home/Get_Qoute">
                 Get a Qoute <img src={arrow} alt="arrow" />
               </Link>
             </div>
-            <div class="socail-icon">
+            <div className="socail-icon">
               <h4>Connect</h4>
               <ul>
                 <li><Link to="#"><FaFacebookF /></Link></li>

@@ -7,11 +7,11 @@ import { ServiceData } from "./ServiceData";
 
 const ServiceComonent = () => {
   return (
-    <section class="troo-da-offer-section" id="troo-da-offer-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sub-txt">
+    <section className="troo-da-offer-section" id="troo-da-offer-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="sub-txt">
               <span>What We Are</span>
               <h2>
                 Renewable Energy for
@@ -21,17 +21,17 @@ const ServiceComonent = () => {
             </div>
           </div>
         </div>
-        <div class="row">
+        <div className="row">
           {ServiceData.slice(0, 3).map((e, i) => (
-            <div class="col-md-4" key={i}>
+            <div className="col-md-4" key={i}>
               <div className={e.className}>
-                <div class="servi-img">
+                <div className="servi-img">
                   <img src={e.img} alt="service1" />
                 </div>
-                <div class="serv-text">
+                <div className="serv-text">
                   <h3>{e.name}</h3>
                   <p>{e.para} </p>
-                  <div class="learn-btn">
+                  <div className="learn-btn">
                     <Link to={`/Home/Our_Services/Service_Details?${createSearchParams({id : e.id})}`}>
                       Learn More
                       <img src={arrow} alt="arrow" />
@@ -42,10 +42,10 @@ const ServiceComonent = () => {
             </div>
           ))}
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="read-cta">
-              <Link href="#">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="read-cta">
+              <Link to="/Home/Our_Services">
                 Explore All Services
                 <img src={blArrow} alt="blArrow" />
               </Link>

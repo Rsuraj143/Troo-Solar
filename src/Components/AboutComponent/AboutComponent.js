@@ -10,22 +10,22 @@ import ScrollTrigger from "react-scroll-trigger";
 const AboutComponent = () => {
   const [counter, setCounter] = useState(false);
   return (
-    <section class="troo-da-who-we-are-section" id="troo-da-who-we-are-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="dot-img">
+    <section  className="troo-da-who-we-are-section" id="troo-da-who-we-are-section">
+      <div  className="container">
+        <div  className="row">
+          <div  className="col-md-6">
+            <div  className="dot-img">
               {" "}
               <img src={greendot} alt="greendot" />{" "}
             </div>
-            <div class="who-img">
+            <div  className="who-img">
               {" "}
               <img src={aboutImg} alt="aboutImg" />
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="who-text">
-              <div class="sub-txt">
+          <div  className="col-md-6">
+            <div  className="who-text">
+              <div  className="sub-txt">
                 <span>Who We Are</span>
                 <h2>
                   Powering Your Businessfor
@@ -43,8 +43,8 @@ const AboutComponent = () => {
                 galley of type and it is scrambled it to make a type specimen
                 book. It has survived type specimen book. It has survived.
               </p>
-              <div class="expert-team">
-                <div class="ex-tm">
+              <div className="expert-team">
+                <div className="ex-tm">
                   <ScrollTrigger
                     onEnter={() => setCounter(true)}
                     onExit={() => setCounter(false)}
@@ -70,7 +70,7 @@ const AboutComponent = () => {
                 text ever is since the 1500s, when an unknown printer took a
                 galley of type and it is scrambled.
               </p>
-              <div class="read-cta">
+              <div className="read-cta">
                 <Link to="/Home/About_Us">
                   Learn More <img src={biArrow} alt="biArrow" />
                 </Link>
