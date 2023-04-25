@@ -15,7 +15,7 @@ export const HeaderData = [
     subNav: [
       {
         subTitle: "Our Projects",
-        heading: " Our Project ",
+        heading: " Our Projects ",
         details : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Our Project",
         path: "/Home/Our_Projects",
       },
