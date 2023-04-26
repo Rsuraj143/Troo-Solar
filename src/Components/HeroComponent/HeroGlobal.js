@@ -50,7 +50,7 @@ const HeroGlobal = () => {
         setHeading(obj.heading);
         setDetails(obj.details);
       } else {
-        setHeading(data.title);
+        setHeading(data.heading);
         setDetails(data.details);
       }
     }

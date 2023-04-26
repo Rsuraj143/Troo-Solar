@@ -7,6 +7,7 @@ export const HeaderData = [
   {
     title: "About Us",
     path: "/Home/About_Us",
+    heading : "Get Everything About Us",
     details : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. About Us",
   },
   {
