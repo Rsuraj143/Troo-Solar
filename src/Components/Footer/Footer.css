@@ -190,4 +190,7 @@ section#troo-da-foooter-section {
   section#troo-da-foooter-section .container{
     padding: 0 20px;
   }
+  section#troo-da-foooter-section{
+    background-image: none;
+  }
 }
