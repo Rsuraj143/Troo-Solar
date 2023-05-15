@@ -262,7 +262,7 @@ button.hum-btn {
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1510px) {
   .call-us {
     display: none;
   }
@@ -290,6 +290,7 @@ button.hum-btn {
   .navbar-brand a img {
     max-width: 200px;
   }
+ 
 }
 
 @media (max-width: 991px) {
